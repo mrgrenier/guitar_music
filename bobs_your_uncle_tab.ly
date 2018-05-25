@@ -1,7 +1,7 @@
-% 
-% 
 %
-\version "2.17.16"
+%
+%
+\version "2.18.2"
 \header {
   title = "Bob's Your Uncle"
   subtitle = "Tunning (D A D G A D)"
@@ -51,9 +51,9 @@ music = \relative c' {
     <g a>4 fis8\4 <g a>8 fis8\4 e\4 d
     e'16( fis e d) a( b) cis8 d a fis\4 g
     a fis\4 e16( fis e d) ~ d8 g16( a\3) d8 a
-    r8 d8 a8 b8\3 r8 d8 a8 d8\3 ~ d8\3 
+    r8 d8 a8 b8\3 r8 d8 a8 d8\3 ~ d8\3
     \tuplet 3/2 { a'16\1( b a } d,8) a16\2( e'16\2 fis8\2) d\1 b\4 a
-    gis a( b) <a d> ~ <a d>4. <f' c g>8 ~ <f c g> 
+    gis a( b) <a d> ~ <a d>4. <f' c g>8 ~ <f c g>
     <f c> <e b>( <d a>) <e b>( <d a>) b a ~ a4
     b8 a d e f\glissando fis
     d \tuplet 3/2 { a'16\1( b a } d,8) a16\2( e'16\2 fis8\2) d\1 b\4 a
@@ -71,7 +71,7 @@ music = \relative c' {
   \\
   {
   }
->> 
+>>
 }
 
 {

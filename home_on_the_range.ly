@@ -1,7 +1,7 @@
-% 
-% 
 %
-\version "2.19.15"
+%
+%
+\version "2.18.2"
 \include "english.ly"
 \header {
   title = "Home on the Range"
@@ -27,7 +27,7 @@
 \storePredefinedDiagram #custom-fretboard-table-one
                         \chordmode{d':7}
                         #guitar-tuning
-                        "x;x;7-1;7-1;7-1;8-2;"                        
+                        "x;x;7-1;7-1;7-1;8-2;"
 \storePredefinedDiagram #custom-fretboard-table-one
                         \chordmode{g}
                         #guitar-tuning
@@ -35,12 +35,12 @@
 \storePredefinedDiagram #custom-fretboard-table-one
                         \chordmode{a:m7}
                         #guitar-tuning
-                        "x;x;2;2;1;3;" 
+                        "x;x;2;2;1;3;"
 \storePredefinedDiagram #custom-fretboard-table-one
                         \chordmode{g'}
                         #guitar-tuning
                         "x;x;5;4;3;3;"
-                        
+
 % Add a chord to custom-fretboard-table-two
 \storePredefinedDiagram #custom-fretboard-table-two
                         \chordmode{d:7}
@@ -53,7 +53,7 @@
 \storePredefinedDiagram #custom-fretboard-table-two
                         \chordmode{g'}
                         #guitar-tuning
-                        "x;x;x;7;8;7;"                    
+                        "x;x;x;7;8;7;"
 \storePredefinedDiagram #custom-fretboard-table-two
                         \chordmode{c}
                         #guitar-tuning
@@ -61,32 +61,32 @@
 \storePredefinedDiagram #custom-fretboard-table-two
                         \chordmode{c'}
                         #guitar-tuning
-                        "x;x;x;9;8;8;"                        
+                        "x;x;x;9;8;8;"
 \storePredefinedDiagram #custom-fretboard-table-two
                         \chordmode{c':m}
                         #guitar-tuning
-                        "x;x;x;8;8;8;"                        
+                        "x;x;x;8;8;8;"
 \storePredefinedDiagram #custom-fretboard-table-two
                         \chordmode{g''}
                         #guitar-tuning
-                        "x;x;x;12;12;10;"                        
+                        "x;x;x;12;12;10;"
 \storePredefinedDiagram #custom-fretboard-table-two
                         \chordmode{a:7}
                         #guitar-tuning
-                        "x;x;2;2;2;3;" 
+                        "x;x;2;2;2;3;"
 \storePredefinedDiagram #custom-fretboard-table-two
                         \chordmode{a:m7}
                         #guitar-tuning
-                        "x;x;5;5;5;5;" 
+                        "x;x;5;5;5;5;"
 \storePredefinedDiagram #custom-fretboard-table-two
                         \chordmode{a':m7}
                         #guitar-tuning
-                        "x;x;5;5;5;x;" 
+                        "x;x;5;5;5;x;"
 \storePredefinedDiagram #custom-fretboard-table-two
                         \chordmode{e:m7}
                         #guitar-tuning
-                        "x;x;2;4;3;3;" 
-                             
+                        "x;x;2;4;3;3;"
+
 \layout { \override Voice.StringNumber #'stencil = ##f }
 
 
@@ -95,8 +95,8 @@
   \time 3/4
   \key g \major
    \chordmode  {
-    s2 d4:7 | 
-    g g d:7 | 
+    s2 d4:7 |
+    g g d:7 |
     g2. |
     c4 c2 |
     c2.:m |
@@ -128,7 +128,7 @@
    d2:7 d4:7 |
    g2. |
    s2.
-   } 
+   }
 }
 
 \new FretBoards {
@@ -151,7 +151,7 @@
       \set predefinedDiagramTable = #default-fret-table
       d2.:7
        \set predefinedDiagramTable = #custom-fretboard-table-one
-      g4  
+      g4
       \set predefinedDiagramTable = #custom-fretboard-table-two
       g4 d:7 |
       g'2. |
@@ -182,12 +182,12 @@
       g4
       \set predefinedDiagramTable = #custom-fretboard-table-two
       g d:7 |
-      g'2. | 
+      g'2. |
       c4 c'2 |
       c'2.:m |
       g'2. |
       \set predefinedDiagramTable = #default-fret-table
-      d2:7 
+      d2:7
      \set predefinedDiagramTable = #custom-fretboard-table-two
       d4:7 |
       \set predefinedDiagramTable = #custom-fretboard-table-one
@@ -241,6 +241,3 @@
   }
 }
 >>
-
-
-

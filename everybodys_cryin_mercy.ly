@@ -1,7 +1,7 @@
-% 
-% 
 %
-\version "2.19.15"
+%
+%
+\version "2.18.2"
 \include "english.ly"
 \header {
   title = "Everybodys Cryin Mercy"
@@ -23,7 +23,7 @@
 \storePredefinedDiagram #custom-fretboard-table-one
                         \chordmode{b:9}
                         #guitar-tuning
-                        "x;2-2;1-1;2-3;2-3;x;"    
+                        "x;2-2;1-1;2-3;2-3;x;"
 \storePredefinedDiagram #custom-fretboard-table-one
                         \chordmode{b:7}
                         #guitar-tuning
@@ -31,26 +31,26 @@
 \storePredefinedDiagram #custom-fretboard-table-one
                         \chordmode{bf:7}
                         #guitar-tuning
-                        "6-1;x;6-2;7-4;6-3;x;"                       
+                        "6-1;x;6-2;7-4;6-3;x;"
 \storePredefinedDiagram #custom-fretboard-table-one
                         \chordmode{ef:9}
                         #guitar-tuning
-                        "x;6-2;5-1;6-3;6-3;x;"    
+                        "x;6-2;5-1;6-3;6-3;x;"
 \storePredefinedDiagram #custom-fretboard-table-one
                         \chordmode{bf:9}
                         #guitar-tuning
-                        "x;1-2;;1-3;1-3;x;"                       
+                        "x;1-2;;1-3;1-3;x;"
 
 \storePredefinedDiagram #custom-fretboard-table-one
                         \chordmode{d:7+}
                         #guitar-tuning
-                        "x;5;4;3;3;3;"  
-                        
+                        "x;5;4;3;3;3;"
+
 \storePredefinedDiagram #custom-fretboard-table-one
                         \chordmode{df:9}
                         #guitar-tuning
-                        "x;4-2;3-1;4-3;4-3;x;"   
-                        
+                        "x;4-2;3-1;4-3;4-3;x;"
+
 \storePredefinedDiagram #custom-fretboard-table-one
                         \chordmode{g:7+}
                         #guitar-tuning
@@ -59,33 +59,33 @@
 \storePredefinedDiagram #custom-fretboard-table-one
                         \chordmode{c:7+}
                         #guitar-tuning
-                        "8;x;8;9;9;x;"                        
+                        "8;x;8;9;9;x;"
 \storePredefinedDiagram #custom-fretboard-table-one
                         \chordmode{c:9}
                         #guitar-tuning
-                        "x;3-2;2-1;3-3;3-3;x;"                       
+                        "x;3-2;2-1;3-3;3-3;x;"
 \storePredefinedDiagram #custom-fretboard-table-one
                         \chordmode{f:7}
                         #guitar-tuning
-                            "1-1;x;1-2;2-4;1-3;x;"              
+                            "1-1;x;1-2;2-4;1-3;x;"
 \storePredefinedDiagram #custom-fretboard-table-one
                         \chordmode{ef}
                         #guitar-tuning
-                            "x;6-1;8-2;8-2;8-2;x;"             
+                            "x;6-1;8-2;8-2;8-2;x;"
 \storePredefinedDiagram #custom-fretboard-table-one
                         \chordmode{e}
                         #guitar-tuning
-                            "x;7-1;9-2;9-2;9-2;x;"             
+                            "x;7-1;9-2;9-2;9-2;x;"
 \storePredefinedDiagram #custom-fretboard-table-one
                         \chordmode{f}
                         #guitar-tuning
-                            "x;8-1;10-2;10-2;10-2;x;"             
+                            "x;8-1;10-2;10-2;10-2;x;"
 
 \storePredefinedDiagram #custom-fretboard-table-one
                         \chordmode{c:7.9+}
                         #guitar-tuning
                             "x;3-2;2-1;3-3;4-4;x;"
-                            
+
 \layout { \override Voice.StringNumber #'stencil = ##f }
 
 music =\chordmode {
@@ -142,7 +142,7 @@ music =\chordmode {
      ef ef d d |
      g g c c  |
      \break
-     f f f f |   
+     f f f f |
      d d c c |
      d d c c |
      d d c c |
@@ -150,5 +150,3 @@ music =\chordmode {
     }
   }
 >>
-
-

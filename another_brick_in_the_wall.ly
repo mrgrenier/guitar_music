@@ -1,7 +1,7 @@
-% 
-% 
 %
-\version "2.19.15"
+%
+%
+\version "2.18.2"
 \include "english.ly"
 \header {
   title = "Another Brick in the Wall part 2"
@@ -46,8 +46,8 @@
 \storePredefinedDiagram #custom-fretboard-table-one
                         \chordmode{g'}
                         #guitar-tuning
-                        "x;x;x;7;8;7;" 
-                        
+                        "x;x;x;7;8;7;"
+
 \storePredefinedDiagram #custom-fretboard-table-one
                         \chordmode{f}
                         #guitar-tuning
@@ -68,7 +68,7 @@
                         "x;x;x;9-2;8-1;8-1;"
 
 % Add a chord to custom-fretboard-table-two
-                             
+
 \layout { \override Voice.StringNumber #'stencil = ##f }
 
 
@@ -78,13 +78,13 @@
   \key bf \major
    \chordmode  {
      \repeat volta 3 {
-       d1:m | 
-       d1:m | 
-       d1:m | 
        d1:m |
-     } 
-    d1:m | 
-    d1:m | 
+       d1:m |
+       d1:m |
+       d1:m |
+     }
+    d1:m |
+    d1:m |
     \repeat volta 4 { g'1 | }
      d'2:m s8 d''8:m s8 c'8 |
      d''4:m s8 c'8. s16 g'8 s8 f'8 |
@@ -96,7 +96,7 @@
      c'1 |
      d,1:m |
 
-   } 
+   }
 }
 
 \new FretBoards {
@@ -105,13 +105,13 @@
  \chordmode {
       \set predefinedDiagramTable = #custom-fretboard-table-one
       \repeat volta 3 {
-        d1:m | 
-        d1:m | 
-        d1:m | 
         d1:m |
-      } 
-    d1:m | 
-    d1:m | 
+        d1:m |
+        d1:m |
+        d1:m |
+      }
+    d1:m |
+    d1:m |
     \repeat volta 4 { g'1 | }
     d'2:m s8 d''8:m s8 c'8 |
     d''4:m s8 c'8. s16 g'8 s8 f'8 |
@@ -145,7 +145,7 @@
    \repeat volta 4 { <d\3 g\2 b\1>16 <d\3 g\2 b\1> <d\3 g\2 b\1>  <d\3 g\2 b\1> <d\3 g\2 b\1>16 <d\3 g\2 b\1> <d\3 g\2 b\1>  <d\3 g\2 b\1> <d\3 g\2 b\1>16 <d\3 g\2 b\1> <d\3 g\2 b\1>  <d\3 g\2 b\1> <d\3 g\2 b\1>16 <d\3 g\2 b\1> <d\3 g\2 b\1>  <d\3 g\2 b\1> | }
     <d\3 f\2 a\1>8. <d\3 f\2 a\1>16 r4 r8 <f\3 a\2 d\1>8 r8 <e\3 g\2 c\1>8 |
      <f\3 a\2 d\1>8. <f\3 a\2 d\1>16 r8 <e\3 g\2 c\1>8 <e\3 g\2 c\1>16 r <d\3 g\2 b\1> <d\3 g\2 b\1> <d\3 g\2 b\1> r <c\3 f\2 a\1>8 |
-     
+
      <c\3 f\2 a\1>16 <c\3 f\2 a\1> <c\3 f\2 a\1> <c\3 f\2 a\1> <c\3 f\2 a\1> <c\3 f\2 a\1> <c\3 f\2 a\1> <c\3 f\2 a\1> <c\3 f\2 a\1> <c\3 f\2 a\1> <c\3 f\2 a\1> <c\3 f\2 a\1> <c\3 f\2 a\1>4 |
      <e\3 g\2 c\1>16 <e\3 g\2 c\1>  <e\3 g\2 c\1> <e\3 g\2 c\1> <e\3 g\2 c\1> <e\3 g\2 c\1> <e\3 g\2 c\1> <e\3 g\2 c\1> <e\3 g\2 c\1> <e\3 g\2 c\1> <e\3 g\2 c\1> <e\3 g\2 c\1> <e\3 g\2 c\1>4 |
      \set TabStaff.minimumFret = #0

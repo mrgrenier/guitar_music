@@ -2,7 +2,7 @@
   Paint it Black
 %}
 
-\version "2.18.0"  % necessary for upgrading to future LilyPond versions.
+\version "2.18.2"  % necessary for upgrading to future LilyPond versions.
 
 \header{
   title = "Paint It Black"

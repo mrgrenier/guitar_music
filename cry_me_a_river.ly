@@ -1,7 +1,7 @@
 %
 %
 %
-\version "2.19.15"
+\version "2.18.2"
 \include "english.ly"
 \include "articulate.ly"
 \header {
@@ -181,7 +181,7 @@ music = {
       cs:m7 as:m7.5- |
       a:7.11+ gs:7 |
       cs1:maj7 |
-      gs2:m11 cs4:7sus4 cs:7 |      
+      gs2:m11 cs4:7sus4 cs:7 |
     }
   }
 

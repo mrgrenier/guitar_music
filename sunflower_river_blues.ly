@@ -1,7 +1,7 @@
 % 
 % 
 %
-\version "2.18.0"
+\version "2.18.2"
 \header {
   title = "Sunflower River Blues"
   subtitle = "Open D tunning (D A D F# A D)"
