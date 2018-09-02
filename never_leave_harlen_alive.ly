@@ -28,8 +28,9 @@ music = {
    \relative c {
   \override Beam.concaveness = #10000
   \set TabStaff.minimumFret = #0
-   r2^\markup { \bold "Intro solo:" }  d8 e8 g4  g8( a2) |
-   a8( b8\3 a8) g8 \acciaccatura d e4
+   r2^\markup { \bold "Intro solo:" }  d8 e8 g4 |  g8( a2) 
+   a8( b8\3 a8) |  g8 \acciaccatura d e2 e8 d8 c8 d2
+   d8 e8 d8 c8 d8 c8 a2 
    }
 }
 
