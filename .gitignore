@@ -1,3 +1,4 @@
 # Don't checkin the MIDI files
 ################################
 *.mid
+*.log
