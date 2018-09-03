@@ -123,34 +123,28 @@ sax_intro = {
   g16 g16 g16 r16 b16 r16 cs16 r16 b16 r16 g8 r16 d8 b'16( |
   b2) b8 r4. | r2 f'2 | f8 r4. r2 | b2 b8 r4. | r2 d2 | d8 r4. r2
 }
-
 sax_riff_a = {
   r4 a8 gs8 a8 gs8 a8 gs8 | a8 r4. r2 |
 }
-
 sax_riff_b = {
   r4 g8 fs8 g8 fs8 g8 fs8 | g8 r4. r2 |
 }
-
 sax_riff_c = {
   r4 d,8 r8 d8 r4. |
   r4 g8 r8 g8 r4. |
   r8 d,8 r8 fs8 r8 a8 r8 c8  |
   r8 e2 r4 cs8 |
 }
-
 sax_solo = {
   d8 r8 d8 d'8 r8 c8 r8 a8 |
   c8 a8 r8 f4 \glissando g8 \glissando f8 r8 |
   d8 r8 d8 d'8 r8 c8 r8 a8 |
   c8 a8 r8 f4 \glissando g8 \glissando f8 r8 |
 }
-
 sax_chorus = {
   g2 r2 | g2 r2 | d2 r2 | d4 g8 f8 g8 f8 d8 c8 |
   g'2 r2 g2 r2 | a8 r4. r2 | a8 r4. r2 |
 }
-
 sax_outro_a = {
   r4 a8 r8 a8 r4. |
   r4 g8 r8 g8 r4. |
@@ -161,12 +155,10 @@ sax_outro_a = {
   r8 d,8 r8 fs8 r8 a8 r8 c8  |
   r8 e2 g,4 gs8 |
 }
-
 sax_outro_b = {
   a8 r8 c16 b16 c16 b16 c8 r4 c16 b16 |
   c16 b16 c8 r8 r4 g4 gs8
 }
-
 sax_outro_c = {
   a8 r4. r2
 }
@@ -244,8 +236,7 @@ Key = { \key d \major }
 % ------ Tenor Saxophone ------
 tenor = \transpose c d \relative c'' {
   \Key
-  \sax_intro
-
+ % \sax_intro
   \repeat volta 2 {
     \sax_riff_a
     \sax_riff_a
@@ -273,14 +264,13 @@ tenorSax = {
   >>
 }
 
-
 % ############ Rhythm Section #############
 
 % ------ Guitar ------
 gtr = \relative c {
   \Key
   \set TabStaff.minimumFret = #0
-  \guitar_intro
+ % \guitar_intro
   \repeat volta 2 {
     \relative c  { \guitar_riff_a }
     \relative c  { \guitar_riff_a }
@@ -311,7 +301,7 @@ gtr = \relative c {
 }
 gtrHarmony = \chordmode {
   \jazzChords
-  s1 s1 s1 s1 s1 s1 s1
+ % s1 s1 s1 s1 s1 s1 s1
   \repeat volta 2 {
     d1:7 s1  s1 s1
     g1:7 s1
@@ -383,7 +373,7 @@ piano = {
 % ------ Bass Guitar ------
 Bass = \relative c, {
   \Key
-  \relative c { \bass_intro }
+%  \relative c { \bass_intro }
   \repeat volta 2 {
     \relative c, { \bass_riff_a }
     \relative c, { \bass_riff_a }
