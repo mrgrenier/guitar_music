@@ -136,6 +136,10 @@ trumpet_riff_b = {
   r4 r8. c16 ef16 f16 r16 gs16 r16 gs16 f8 |
 }
 
+trumpet_riff_c = {
+  r4 a8 r2 r8 | 
+}
+
 %%%%  Piano Music %%%%%
 
 piano_riff_a_a = {
@@ -189,6 +193,8 @@ tenor = \transpose c d \relative c'' {
   \trumpet_riff_b
   \trumpet_riff_a
   \trumpet_riff_b
+  
+  \trumpet_riff_c
 }
 tenorHarmony = \transpose c' a {
   \jazzChords
