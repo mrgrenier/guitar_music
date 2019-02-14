@@ -3,12 +3,13 @@
 %
 \version "2.19.82"
 \header {
-  title = ""
+  title = "It's Your Thing"
   subtitle = "Funk-n-A"
-  composer = ""
+  arranger = ""
+  composer = "Isley Brothers"
   tagline = \markup {
     \column {
-      "Parts"
+      "All Parts"
     }
   }
 }
@@ -182,8 +183,8 @@ Key = { \key f \major }
 % ############ Horns ############
 
 
-% ------ Tenor Saxophone ------
-tenor = \transpose c d \relative c'' {
+% ------ Alto Saxophone ------
+alto = \transpose c a \relative c' {
   \Key
   r1 r1 r1 r1
   \trumpet_riff_a
@@ -196,14 +197,14 @@ tenor = \transpose c d \relative c'' {
   
   \trumpet_riff_c
 }
-tenorHarmony = \transpose c' a {
+altoHarmony = \transpose c' a {
   \jazzChords
 }
-tenorSax = {
+altoSax = {
   \global
   \clef treble
   <<
-    \tenor
+    \alto
   >>
 }
 
@@ -376,11 +377,11 @@ drumContents = {
 \score {
   <<
     \new StaffGroup = "horns" <<
-      \new Staff = "tenorsax" \with {
-        instrumentName = #"Tenor Sax"
-        midiInstrument = #"tenor sax"
+      \new Staff = "altosax" \with {
+        instrumentName = #"Alto Sax"
+        midiInstrument = #"alto sax"
       }
-      \tenorSax
+      \altoSax
     >>
 
     \new StaffGroup = "rhythm" <<

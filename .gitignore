@@ -3,3 +3,4 @@
 *.mid
 *.log
 /tmp-lilypond*
+*.wav

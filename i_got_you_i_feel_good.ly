@@ -233,8 +233,8 @@ Key = { \key d \major }
 % ############ Horns ############
 
 
-% ------ Tenor Saxophone ------
-tenor = \transpose c d \relative c'' {
+% ------ Alto Saxophone ------
+alto = \relative c'' {
   \Key
  % \sax_intro
   \repeat volta 2 {
@@ -253,16 +253,20 @@ tenor = \transpose c d \relative c'' {
  \sax_outro_c
 }
 
-tenorHarmony = \transpose c' a {
+altoHarmony = \transpose c' a {
   \jazzChords
 }
-tenorSax = {
-  \global
+altoSax = {
+   \transposition ef { 
+      \transpose c a { 
   \clef treble
   <<
-    \tenor
+    \global
+    \alto
   >>
 }
+   }
+   }
 
 % ############ Rhythm Section #############
 
@@ -427,11 +431,11 @@ drumContents = {
 \score {
   <<
     \new StaffGroup = "horns" <<
-      \new Staff = "tenorsax" \with {
-        instrumentName = #"Tenor Sax"
-        midiInstrument = #"tenor sax"
+      \new Staff = "altosax" \with {
+        instrumentName = #"Alto Sax"
+        midiInstrument = #"alto sax"
       }
-      \tenorSax
+      \altoSax
     >>
 
     \new StaffGroup = "rhythm" <<

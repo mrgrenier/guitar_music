@@ -1,0 +1,3475 @@
+SAMPLER {
+HQ {
+soundlib "SL-SUPERIOR_DRUMMER_3"
+mastervol 1
+mastervol2 1
+}
+instbox 0 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "KickR"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+}
+micmap {
+nrmaster 34
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"KickR" 4 4 4
+}
+drum "Kick1"  "Felt" 1
+pads {
+pad kickR {
+usemic "Kick-In" "Kick-Out" "Kick-Sub" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad kickO {
+usemic "Kick-In" "Kick-Out" "Kick-Sub" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+alias kickO 36 34
+alias kickR 35
+}
+}
+}
+instbox 1 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Snare"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+}
+micmap {
+nrmaster 34
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Snare" 4 4 4 {
+"snareR" 6 6 6
+}
+}
+drum "Snare1"  "Drumsticks" 1
+pads {
+pad shakeback {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad shakebackE {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+futureimmediate
+maxpoly 8
+}
+pad shake {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad shakeE {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+futureimmediate
+maxpoly 8
+}
+pad snareTH {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad snareMT {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad snareRF {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+fadetime 0.2
+}
+pad snareFL {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad snareMC {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 0.501187
+maxpoly 8
+}
+pad snareFO {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1.5
+maxpoly 8
+}
+pad snareRO {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad snareSL {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad snareFX {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad snareR {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 0.501187
+maxpoly 8
+}
+pad snareCtrl {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+sendnoteoff
+maxpoly 8
+}
+pad snareTrig {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+sendnoteoff
+maxpoly 8
+}
+alias snareTrig 6
+alias snareCtrl CC16
+alias snareR 38
+alias snareFX 40
+alias snareSL 37 1 76
+alias snareRO 71
+alias snareFO 33
+alias snareMC 125
+alias snareFL 69
+alias snareRF 39
+alias snareMT 68
+alias snareTH 70
+alias shakeE 67
+alias shake 127
+alias shakebackE 66
+alias shakeback 126
+}
+}
+}
+instbox 2 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Hats"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+}
+micmap {
+nrmaster 34
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Hats" 4 4 4 {
+"hatsCL" 6 6 6
+"hatsTP" 6 6 6
+"hatsSQH" 6 6 6
+"hatsPLO" 2 3 4
+}
+}
+drum "Hats1"  "Drumsticks" 1
+pads {
+pad hatsM5 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsM4 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsM3 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsM2 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsM1 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsM0 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsBM {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsTM {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsB5 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsB4 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsB3 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsB2 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsB1 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsB0 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsBL {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsTB {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsT5 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsT4 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsT3 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsT2 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsT1 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsT0 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsTP {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad hatsTT {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad hatsO5 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+}
+pad hatsO4 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad hatsO3 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad hatsO2 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad hatsO1 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad hatsLO {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad hatsCL {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad hatsCT {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad hatsPL {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad hatsPLO {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad hatsSQH {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+ cycle NOT S 
+cycle NOT H 
+maxpoly 8
+blocksounds
+}
+pad hatsCtrl {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+sendnoteoff
+maxpoly 8
+}
+pad hatsTrig {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+sendnoteoff
+maxpoly 8
+}
+pad hatsTipTrig {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+sendnoteoff
+maxpoly 8
+}
+pad hatsBellTrig {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+sendnoteoff
+maxpoly 8
+}
+pad hatsShaftTrig {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+sendnoteoff
+maxpoly 8
+}
+alias hatsShaftTrig 20
+alias hatsBellTrig 9
+alias hatsTipTrig 8 19
+alias hatsTrig 7 18
+alias hatsCtrl CC4 CC1
+alias hatsSQH 65
+alias hatsPLO 23
+alias hatsPL 21 10 44
+alias hatsCT 62
+alias hatsCL 22
+alias hatsLO 64
+alias hatsO1 24
+alias hatsO2 25 46
+alias hatsO3 26
+alias hatsO4 60
+alias hatsTT 63
+alias hatsTP 61 11 42
+alias hatsT0 12
+alias hatsT1 13
+alias hatsT2 14
+alias hatsT3 15
+alias hatsT4 16
+alias hatsT5 17
+alias hatsBL 119
+alias hatsB0 120
+alias hatsB1 121
+alias hatsB2 122
+alias hatsB3 123
+alias hatsB4 124
+}
+}
+}
+instbox 3 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Tom1"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+}
+micmap {
+nrmaster 34
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Tom1" 4 4 4
+}
+drum "Tom1-1"  "Drumsticks" 1
+pads {
+pad tom1MT {
+usemic "SnareBottom" "SnareBottomR" "Tom1" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad tom1RO {
+usemic "SnareBottom" "SnareBottomR" "Tom1" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad tom1FX {
+usemic "SnareBottom" "SnareBottomR" "Tom1" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad tom1R {
+usemic "SnareBottom" "SnareBottomR" "Tom1" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 0.398107
+maxpoly 8
+}
+alias tom1R 48
+alias tom1FX 82
+alias tom1RO 81
+}
+}
+}
+instbox 4 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Tom2"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+}
+micmap {
+nrmaster 34
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Tom2" 4 4 4
+}
+drum -  "Drumsticks" 1
+pads {
+pad tom2MT {
+usemic "SnareBottom" "SnareBottomR" "Tom2" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad tom2RO {
+usemic "SnareBottom" "SnareBottomR" "Tom2" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad tom2FX {
+usemic "SnareBottom" "SnareBottomR" "Tom2" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad tom2R {
+usemic "SnareBottom" "SnareBottomR" "Tom2" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 0.398107
+maxpoly 8
+}
+alias tom2R 47
+alias tom2FX 80
+alias tom2RO 79
+}
+}
+}
+instbox 5 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Tom3"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+}
+micmap {
+nrmaster 34
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Tom3" 4 4 4
+}
+drum -  "Drumsticks" 1
+pads {
+pad tom3MT {
+usemic "SnareBottom" "SnareBottomR" "Tom3" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad tom3RO {
+usemic "SnareBottom" "SnareBottomR" "Tom3" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad tom3FX {
+usemic "SnareBottom" "SnareBottomR" "Tom3" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad tom3R {
+usemic "SnareBottom" "SnareBottomR" "Tom3" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 0.398107
+maxpoly 8
+}
+alias tom3R 45
+alias tom3FX 78
+alias tom3RO 77
+}
+}
+}
+instbox 6 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Tom4"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+}
+micmap {
+nrmaster 34
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Tom4" 4 4 4
+}
+drum "Tom1-4"  "Drumsticks" 1
+pads {
+pad tom4MT {
+usemic "SnareBottom" "SnareBottomR" "Tom4" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad tom4RO {
+usemic "SnareBottom" "SnareBottomR" "Tom4" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad tom4FX {
+usemic "SnareBottom" "SnareBottomR" "Tom4" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad tom4R {
+usemic "SnareBottom" "SnareBottomR" "Tom4" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 0.398107
+maxpoly 8
+}
+alias tom4R 43
+alias tom4FX 75
+alias tom4RO 74
+}
+}
+}
+instbox 7 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Tom5"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+}
+micmap {
+nrmaster 34
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Tom5" 4 4 4
+}
+drum -  "Drumsticks" 1
+pads {
+pad tom5MT {
+usemic "SnareBottom" "SnareBottomR" "Tom5" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad tom5RO {
+usemic "SnareBottom" "SnareBottomR" "Tom5" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad tom5FX {
+usemic "SnareBottom" "SnareBottomR" "Tom5" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad tom5R {
+usemic "SnareBottom" "SnareBottomR" "Tom5" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 0.398107
+maxpoly 8
+}
+alias tom5R 41
+alias tom5FX 73
+alias tom5RO 72
+}
+}
+}
+instbox 8 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Cymbal1"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+}
+micmap {
+nrmaster 34
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Cymbal1" 2 3 4 {
+"crash1TL" 4 4 4
+}
+}
+drum -  "Drumsticks" 1
+pads {
+pad crash1FX {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+}
+pad crash1CS {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+}
+pad crash1BT {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash1BL {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash1RD {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash1RT {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash1M {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+ cycle NOT S 
+cycle NOT H 
+maxpoly 8
+aftertouchrelay
+}
+pad crash1 {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash1TL {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+alias crash1 86
+alias crash1M 83
+alias crash1RT 84
+alias crash1RD 87
+alias crash1BL 85
+alias crash1BT 88
+}
+}
+}
+instbox 9 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Cymbal2"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+}
+micmap {
+nrmaster 34
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Cymbal2" 2 3 4 {
+"crash2TL" 4 4 4
+}
+}
+drum "cymbal1_3"  "Drumsticks" 1
+pads {
+pad crash2FX {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+}
+pad crash2CS {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+}
+pad crash2BT {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash2BL {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash2RD {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash2RT {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash2 {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash2M {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+ cycle NOT S 
+cycle NOT H 
+maxpoly 8
+aftertouchrelay
+}
+pad crash2TL {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+alias crash2M 50 94
+alias crash2 49 91
+alias crash2RT 27 89
+alias crash2RD 92
+alias crash2BL 28 90
+alias crash2BT 93
+}
+}
+}
+instbox 10 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Cymbal3"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+}
+micmap {
+nrmaster 34
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Cymbal3" 2 3 4 {
+"crash3TL" 4 4 4
+}
+}
+drum -  "Drumsticks" 1
+pads {
+pad crash3FX {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+}
+pad crash3CS {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+}
+pad crash3BT {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash3BL {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash3RD {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash3RT {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash3 {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash3M {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+ cycle NOT S 
+cycle NOT H 
+maxpoly 8
+aftertouchrelay
+}
+pad crash3TL {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+alias crash3M 56 95
+alias crash3 55 98
+alias crash3RT 96
+alias crash3RD 99
+alias crash3BL 97
+alias crash3BT 100
+}
+}
+}
+instbox 11 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Cymbal4"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+}
+micmap {
+nrmaster 34
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Cymbal4" 2 3 4 {
+"crash4TL" 4 4 4
+}
+}
+drum "cymbal1_4"  "Drumsticks" 1
+pads {
+pad crash4FX {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+}
+pad crash4CS {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+}
+pad crash4BT {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash4BL {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash4RD {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash4RT {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash4 {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash4M {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+ cycle NOT S 
+cycle NOT H 
+maxpoly 8
+aftertouchrelay
+}
+pad crash4TL {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+alias crash4M 118
+alias crash4 59 115
+alias crash4RT 51 113
+alias crash4RD 29 116
+alias crash4BL 53 114
+alias crash4BT 30 117
+}
+}
+}
+instbox 12 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Cymbal5"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+}
+micmap {
+nrmaster 34
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Cymbal5" 2 3 4 {
+"crash5TL" 4 4 4
+}
+}
+drum "cymbal1_5"  "Drumsticks" 1
+pads {
+pad crash5FX {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+}
+pad crash5CS {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+}
+pad crash5BT {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash5BL {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash5RD {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash5RT {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash5 {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash5M {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+ cycle NOT S 
+cycle NOT H 
+maxpoly 8
+aftertouchrelay
+}
+pad crash5TL {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+alias crash5M 58 106
+alias crash5 57 103
+alias crash5RT 31 101
+alias crash5RD 104
+alias crash5BL 32 102
+alias crash5BT 105
+}
+}
+}
+instbox 13 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Cymbal6"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+}
+micmap {
+nrmaster 34
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Cymbal6" 2 3 4 {
+"crash6TL" 4 4 4
+}
+}
+drum -  "Drumsticks" 1
+pads {
+pad crash6FX {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+}
+pad crash6CS {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+}
+pad crash6BT {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash6BL {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash6RD {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash6RT {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash6 {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash6M {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+ cycle NOT S 
+cycle NOT H 
+maxpoly 8
+aftertouchrelay
+}
+pad crash6TL {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+alias crash6M 54 107
+alias crash6 52 110
+alias crash6RT 108
+alias crash6RD 111
+alias crash6BL 109
+alias crash6BT 112
+}
+}
+}
+mixer {
+latcomp
+Kick-In {
+pan 0.5
+volume 0.64088
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Kick-Out {
+pan 0.5
+volume 0.457377
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Kick-Sub {
+pan 0.5
+volume 0.334301
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+SnareTop {
+pan 0.5
+volume 0.899839
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+SnareBottom {
+pan 0
+volume 0.459271
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+SnareBottomR {
+pan 1
+volume 0.459271
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Hats {
+pan 0.26087
+volume 0.48939
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Tom1 {
+pan 0
+volume 0.319806
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Tom2 {
+pan 0.361111
+volume 0.427335
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Tom3 {
+pan 0.527778
+volume 0.427335
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Tom4 {
+pan 0.652174
+volume 0.555684
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Tom5 {
+pan 0.833333
+volume 0.427335
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Oh-Beyer {
+pan 0
+volume 1.54464
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Oh-BeyerR {
+pan 1
+volume 1.54464
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Oh-Sanken {
+pan 0
+volume 1.20226
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Oh-SankenR {
+pan 1
+volume 1.20226
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Ambience-R88 {
+pan 0
+volume 0.334301
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Ambience-R88R {
+pan 1
+volume 0.334301
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+AmbNear {
+pan 0
+volume 0.776247
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+AmbNearR {
+pan 1
+volume 0.776247
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+AmbMid {
+pan 0
+volume 0.776247
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+AmbMidR {
+pan 1
+volume 0.776247
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Front {
+pan 0
+volume 0.489779
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+FrontR {
+pan 1
+volume 0.489779
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Front-C {
+pan 0.5
+volume 0.489779
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Rear {
+pan 0
+volume 0.30903
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+RearR {
+pan 1
+volume 0.30903
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+FrontHeight {
+pan 0
+volume 0.266073
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+FrontHeightR {
+pan 1
+volume 0.266073
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+RearHeight {
+pan 0
+volume 0.229087
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+RearHeightR {
+pan 1
+volume 0.229087
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+RearHeightAlt {
+pan 0
+volume 0.229087
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+RearHeightAltR {
+pan 1
+volume 0.229087
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+buss 0 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 1 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 2 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 3 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 4 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 5 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 6 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 7 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 8 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 9 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 10 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 11 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 12 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 13 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 14 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 15 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 16 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 17 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 18 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 19 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 20 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 21 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 22 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 23 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 24 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 25 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 26 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 27 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 28 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 29 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 30 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 31 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+output 0 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 1 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 2 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 3 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 4 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 5 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 6 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 7 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 8 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 9 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 10 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 11 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 12 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 13 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 14 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 15 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 16 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 17 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 18 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 19 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 20 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 21 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 22 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 23 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 24 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 25 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 26 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 27 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 28 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 29 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 30 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 31 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+}
+macros {
+}
+midilearn {
+}
+}
+ClearTracksFirst
+SongTrack 0 {
+Minimized 0
+VisibleArea 0 375.978
+Zoom 3.38849
+ClearTrackFirst
+TrackLength 412
+Tempo 91.0001 0 0
+Tempo 91.0001 372 1
+Tempo 120 372 2
+TimeSig 4 4 0
+TrackName "Track 1"
+MutedCCs 
+GridRes 32
+LoopArea 384 400
+LoopActive 0
+StartNumber 1
+MidiLoop 0 {
+Name "Shakey_Ground_Drum_Groove"
+RealEndTime 372
+StartTime 0
+EndTime 372
+Offset 0
+ResizeEnd 372
+tapQuantize 0
+Velocity 0
+ClearNotes
+TimeSig 4 4
+Events 8332176 0 5842064 0 9088 0.25 9344 1 8332176 1 5842064 1 9088 1.25 9344 2 8332176 2 5842064 2 9088 2.25 9344 3 8332176 3 5842064 3 9088 3.25 9344 4 8332176 4 5842064 4 9088 4.25 9344 5 8332176 5 5842064 5 9088 5.25 9344 6 8332176 6 5842064 6 9088 6.25 9344 7 8332176 7 
+Events 5842064 7 9088 7.25 9344 8 8332176 8 5842064 8 9088 8.25 9344 9 8332176 9 5842064 9 9088 9.25 9344 10 8332176 10 5842064 10 9088 10.25 9344 11 8332176 11 5842064 11 9088 11.25 9344 12 8332176 12 5842064 12 9088 12.25 9344 13 8332176 13 5842064 13 9088 13.25 9344 14 8332176 14 5842064 14 9088 14.25 
+Events 9344 15 8332176 15 5842064 15 9088 15.25 9344 16 8332176 16 5842064 16 9088 16.25 9344 17 8332176 17 5842064 17 9088 17.25 9344 18 8332176 18 5842064 18 9088 18.25 9344 19 8332176 19 5842064 19 9088 19.25 9344 20 8332176 20 5842064 20 9088 20.25 9344 21 8332176 21 5842064 21 9088 21.25 9344 22 8332176 22 
+Events 5842064 22 9088 22.25 9344 23 8332176 23 5842064 23 9088 23.25 9344 24 8332176 24 5842064 24 9088 24.25 9344 25 8332176 25 5842064 25 9088 25.25 9344 26 8332176 26 5842064 26 9088 26.25 9344 27 8332176 27 5842064 27 9088 27.25 9344 28 8332176 28 5842064 28 9088 28.25 9344 29 8332176 29 5842064 29 9088 29.25 
+Events 9344 30 8332176 30 5842064 30 5842576 30 8355216 30 32128 30.05 9088 30.25 9856 30.25 5842576 30.25 9856 30.5 5842576 30.5 8355216 30.5 32128 30.55 9856 30.75 5842576 30.75 9344 31 9856 31 8332176 31 5842064 31 5842576 31 8355216 31 32128 31.05 9088 31.25 9856 31.25 5842576 31.25 9856 31.5 5842576 31.5 8355216 31.5 32128 31.55 9344 31.75 
+Events 9856 31.75 8332176 31.75 5842064 31.75 9088 32 9344 32 8332176 32 5842064 32 8337808 32 14720 32.05 9088 32.25 5843600 32.5 9344 33 10880 33 5842576 33 5843600 33 8339344 33 8355216 33 16256 33.05 32128 33.05 10880 33.5 5843600 33.5 9856 34 10880 34 8332176 34 5842064 34 5843600 34 8339344 34 16256 34.05 9088 34.25 10880 34.5 
+Events 5843600 34.5 9344 35 10880 35 5842576 35 5843600 35 8339344 35 8355216 35 16256 35.05 32128 35.05 10880 35.5 5843600 35.5 9856 36 10880 36 8332176 36 5842064 36 5843600 36 8339344 36 16256 36.05 9088 36.25 10880 36.5 5843600 36.5 9344 37 10880 37 5842576 37 8355216 37 5843600 37 8339344 37 16256 37.05 32128 37.05 10880 37.5 
+Events 5843600 37.5 9856 38 10880 38 8332176 38 5842064 38 5843600 38 8339344 38 16256 38.05 9088 38.25 10880 38.5 5843600 38.5 9344 39 10880 39 5842576 39 5843600 39 8339344 39 8355216 39 32128 39.05 16256 39.05 10880 39.5 5843600 39.5 9856 40 10880 40 8332176 40 5842064 40 8339344 40 5843600 40 16256 40.05 9088 40.25 10880 40.5 
+Events 5843600 40.5 9344 41 10880 41 5842576 41 5843600 41 8339344 41 8355216 41 16256 41.05 32128 41.05 10880 41.5 5843600 41.5 9856 42 10880 42 8332176 42 5842064 42 5843600 42 8339344 42 16256 42.05 9088 42.25 10880 42.5 5843600 42.5 9344 43 10880 43 5842576 43 8339344 43 8355216 43 5843600 43 16256 43.05 32128 43.05 10880 43.5 
+Events 5843600 43.5 9856 44 10880 44 8332176 44 5842064 44 5843600 44 8339344 44 16256 44.05 9088 44.25 10880 44.5 5843600 44.5 9344 45 10880 45 5842576 45 5843600 45 8339344 45 8355216 45 32128 45.05 16256 45.05 10880 45.5 5843600 45.5 9856 46 10880 46 8332176 46 5842064 46 8339344 46 5843600 46 16256 46.05 9088 46.25 10880 46.5 
+Events 5843600 46.5 9344 47 10880 47 5842576 47 5843600 47 8339344 47 8355216 47 16256 47.05 32128 47.05 10880 47.5 5844624 47.5 8339600 47.5 16512 47.55 9856 48 11904 48 8332176 48 5842064 48 8339344 48 5843600 48 16256 48.05 9088 48.25 10880 48.5 5843600 48.5 9344 49 10880 49 5842576 49 5843600 49 8339344 49 8355216 49 16256 49.05 
+Events 32128 49.05 10880 49.5 5843600 49.5 9856 50 10880 50 8332176 50 5842064 50 5844624 50 8339600 50 16512 50.05 9088 50.25 11904 50.5 5843600 50.5 9344 51 10880 51 5842576 51 8339344 51 5843600 51 8355216 51 32128 51.05 16256 51.05 10880 51.5 5843600 51.5 9856 52 10880 52 8332176 52 5842064 52 5843600 52 8339344 52 16256 52.05 
+Events 9088 52.25 10880 52.5 5843600 52.5 9344 53 10880 53 5842576 53 5843600 53 8339344 53 8355216 53 16256 53.05 32128 53.05 10880 53.5 5843600 53.5 9856 54 10880 54 8332176 54 5842064 54 5843600 54 8339344 54 16256 54.05 9088 54.25 10880 54.5 5843600 54.5 9344 55 10880 55 5842576 55 5843600 55 8339344 55 8355216 55 16256 55.05 
+Events 32128 55.05 10880 55.5 5844624 55.5 8339600 55.5 16512 55.55 9856 56 11904 56 8332176 56 5842064 56 5843600 56 8339344 56 16256 56.05 9088 56.25 10880 56.5 5843600 56.5 9344 57 10880 57 5842576 57 5843600 57 8339344 57 8355216 57 16256 57.05 32128 57.05 10880 57.5 5843600 57.5 9856 58 10880 58 8332176 58 5842064 58 5844624 58 
+Events 8339600 58 16512 58.05 9088 58.25 11904 58.5 5843600 58.5 9344 59 10880 59 5842576 59 5843600 59 8339344 59 8355216 59 16256 59.05 32128 59.05 10880 59.5 5843600 59.5 9856 60 10880 60 5843600 60 8337808 60 8339344 60 14720 60.05 16256 60.05 10880 60.5 5843600 60.5 10880 61 5842576 61 5843600 61 8339344 61 8355216 61 16256 61.05 
+Events 32128 61.05 10880 61.5 5843600 61.5 9856 62 10880 62 8332176 62 5842064 62 5843600 62 9088 62.25 9344 62.25 5842576 62.25 8355216 62.25 32128 62.3 9856 62.5 5842576 62.5 8355216 62.75 9856 62.75 5842576 62.75 32128 62.8 10880 63 9856 63 8332176 63 5842064 63 5843600 63 8339344 63 16256 63.05 9088 63.25 9344 63.25 5842576 63.25 8355216 63.25 
+Events 32128 63.3 9856 63.75 5842576 63.75 8355216 63.75 32128 63.8 10880 64 9856 64 8332176 64 5842064 64 8337808 64 14720 64.05 9088 64.25 5843600 64.5 9344 65 10880 65 5842576 65 8339344 65 8355216 65 5843600 65 16256 65.05 32128 65.05 10880 65.5 5843600 65.5 9856 66 10880 66 8332176 66 5842064 66 5843600 66 8339344 66 16256 66.05 
+Events 9088 66.25 10880 66.5 5843600 66.5 9344 67 10880 67 5842576 67 5843600 67 8339344 67 8355216 67 16256 67.05 32128 67.05 10880 67.5 5843600 67.5 9856 68 10880 68 8332176 68 5842064 68 8339344 68 5843600 68 16256 68.05 9088 68.25 10880 68.5 5843600 68.5 9344 69 10880 69 5842576 69 5843600 69 8339344 69 8355216 69 16256 69.05 
+Events 32128 69.05 10880 69.5 5843600 69.5 9856 70 10880 70 8332176 70 5842064 70 5843600 70 8339344 70 16256 70.05 9088 70.25 10880 70.5 5843600 70.5 9344 71 10880 71 5842576 71 8339344 71 8355216 71 5843600 71 16256 71.05 32128 71.05 10880 71.5 5844624 71.5 8339600 71.5 16512 71.55 9856 72 11904 72 8332176 72 5842064 72 5843600 72 
+Events 8339344 72 16256 72.05 9088 72.25 10880 72.5 5843600 72.5 9344 73 10880 73 5842576 73 8339344 73 5843600 73 8355216 73 32128 73.05 16256 73.05 10880 73.5 5843600 73.5 9856 74 10880 74 8332176 74 5842064 74 5843600 74 8339344 74 16256 74.05 9088 74.25 8339600 74.5 10880 74.5 5844624 74.5 16512 74.55 11904 75 9344 75 5842576 75 
+Events 5843600 75 8339344 75 8355216 75 16256 75.05 32128 75.05 10880 75.5 5844624 75.5 8339600 75.5 16512 75.55 9856 76 11904 76 8332176 76 5842064 76 5843600 76 8339344 76 16256 76.05 9088 76.25 10880 76.5 5843600 76.5 9344 77 10880 77 5842576 77 5843600 77 8339344 77 8355216 77 16256 77.05 32128 77.05 10880 77.5 5843600 77.5 9856 78 
+Events 10880 78 8332176 78 5842064 78 5843600 78 8339344 78 16256 78.05 9088 78.25 5844624 78.5 10880 78.5 8339600 78.5 16512 78.55 9344 79 11904 79 5842576 79 5843600 79 8339344 79 8355216 79 16256 79.05 32128 79.05 10880 79.5 5843600 79.5 9856 80 10880 80 8332176 80 5842064 80 8337808 80 14720 80.05 9088 80.25 5843600 80.5 9344 81 
+Events 10880 81 5842576 81 5843600 81 8339344 81 8355216 81 16256 81.05 32128 81.05 10880 81.5 5843600 81.5 9856 82 10880 82 8332176 82 5842064 82 5843600 82 8339344 82 16256 82.05 9088 82.25 10880 82.5 5843600 82.5 9344 83 10880 83 5842576 83 5843600 83 8339344 83 8355216 83 16256 83.05 32128 83.05 10880 83.5 5843600 83.5 9856 84 
+Events 10880 84 8332176 84 5842064 84 5843600 84 8339344 84 16256 84.05 9088 84.25 10880 84.5 5843600 84.5 9344 85 10880 85 5842576 85 5843600 85 8339344 85 8355216 85 16256 85.05 32128 85.05 10880 85.5 5843600 85.5 9856 86 10880 86 8332176 86 5842064 86 5843600 86 8339344 86 16256 86.05 9088 86.25 10880 86.5 5843600 86.5 9344 87 
+Events 10880 87 5842576 87 8339344 87 5843600 87 8355216 87 16256 87.05 32128 87.05 10880 87.5 5844624 87.5 8339600 87.5 16512 87.55 9856 88 11904 88 8332176 88 5842064 88 5843600 88 8339344 88 16256 88.05 9088 88.25 10880 88.5 5843600 88.5 9344 89 10880 89 5842576 89 5843600 89 8339344 89 8355216 89 32128 89.05 16256 89.05 10880 89.5 
+Events 5843600 89.5 9856 90 10880 90 8332176 90 5843600 90 5842064 90 8339344 90 16256 90.05 9088 90.25 10880 90.5 5844624 90.5 8339600 90.5 16512 90.55 9344 91 11904 91 5842576 91 5843600 91 8339344 91 8355216 91 16256 91.05 32128 91.05 10880 91.5 5843600 91.5 9856 92 10880 92 8332176 92 5842064 92 5843600 92 8339344 92 16256 92.05 
+Events 9088 92.25 8339600 92.5 10880 92.5 5844624 92.5 16512 92.55 9344 93 11904 93 5842576 93 5843600 93 8339344 93 8355216 93 16256 93.05 32128 93.05 10880 93.5 5843600 93.5 9856 94 10880 94 8332176 94 5842064 94 5843600 94 8339344 94 16256 94.05 9088 94.25 9344 94.5 10880 94.5 5842576 94.5 8355216 94.5 32128 94.55 9856 95 5842576 95 
+Events 8355216 95 32128 95.05 9856 95.25 5842576 95.25 9856 95.5 5842576 95.5 8355216 95.5 32128 95.55 9856 95.75 5842576 95.75 9856 96 8332176 96 5842064 96 8337808 96 14720 96.05 9088 96.25 5843600 96.5 9344 97 10880 97 5842576 97 5843600 97 8339344 97 8355216 97 16256 97.05 32128 97.05 10880 97.5 5843600 97.5 9856 98 10880 98 8332176 98 
+Events 5843600 98 5842064 98 8339344 98 16256 98.05 9088 98.25 10880 98.5 5843600 98.5 9344 99 10880 99 5842576 99 5843600 99 8339344 99 8355216 99 16256 99.05 32128 99.05 10880 99.5 5843600 99.5 9856 100 10880 100 8332176 100 5842064 100 5843600 100 8339344 100 16256 100.05 9088 100.25 10880 100.5 5843600 100.5 9344 101 10880 101 5842576 101 
+Events 8339344 101 5843600 101 8355216 101 32128 101.05 16256 101.05 10880 101.5 5843600 101.5 9856 102 10880 102 8332176 102 5842064 102 5843600 102 8339344 102 16256 102.05 9088 102.25 10880 102.5 5843600 102.5 9344 103 10880 103 5842576 103 5843600 103 8339344 103 8355216 103 16256 103.05 32128 103.05 8339600 103.5 10880 103.5 5844624 103.5 16512 103.55 9856 104 
+Events 11904 104 8332176 104 8339344 104 5842064 104 5843600 104 16256 104.05 9088 104.25 10880 104.5 5843600 104.5 9344 105 10880 105 5842576 105 5843600 105 8339344 105 8355216 105 16256 105.05 32128 105.05 10880 105.5 5843600 105.5 9856 106 10880 106 8332176 106 5842064 106 5843600 106 8339344 106 16256 106.05 9088 106.25 8339600 106.5 10880 106.5 5844624 106.5 
+Events 16512 106.55 9344 107 11904 107 5842576 107 5843600 107 8339344 107 8355216 107 16256 107.05 32128 107.05 10880 107.5 5844624 107.5 8339600 107.5 16512 107.55 11904 108 9856 108 8332176 108 5842064 108 5843600 108 8339344 108 16256 108.05 9088 108.25 10880 108.5 5843600 108.5 9344 109 10880 109 5842576 109 5843600 109 8339344 109 8355216 109 16256 109.05 
+Events 32128 109.05 10880 109.5 5843600 109.5 9856 110 10880 110 8332176 110 5842064 110 8339344 110 5843600 110 16256 110.05 9088 110.25 10880 110.5 5844624 110.5 8339600 110.5 16512 110.55 9344 111 11904 111 5842576 111 5843600 111 8339344 111 8355216 111 16256 111.05 32128 111.05 10880 111.5 5843600 111.5 9856 112 10880 112 8332176 112 5842064 112 8337808 112 
+Events 14720 112.05 9088 112.25 5843600 112.5 9344 113 10880 113 5842576 113 5843600 113 8339344 113 8355216 113 16256 113.05 32128 113.05 10880 113.5 5843600 113.5 9856 114 10880 114 8332176 114 5842064 114 5843600 114 8339344 114 16256 114.05 9088 114.25 10880 114.5 5843600 114.5 9344 115 10880 115 5842576 115 8355216 115 5843600 115 8339344 115 16256 115.05 
+Events 32128 115.05 10880 115.5 5843600 115.5 9856 116 10880 116 8332176 116 5842064 116 5843600 116 8339344 116 16256 116.05 9088 116.25 10880 116.5 5843600 116.5 9344 117 10880 117 5842576 117 5843600 117 8339344 117 8355216 117 16256 117.05 32128 117.05 10880 117.5 5843600 117.5 9856 118 10880 118 8332176 118 5843600 118 5842064 118 8339344 118 16256 118.05 
+Events 9088 118.25 10880 118.5 5843600 118.5 9344 119 10880 119 5842576 119 5843600 119 8339344 119 8355216 119 16256 119.05 32128 119.05 5844624 119.5 10880 119.5 8339600 119.5 16512 119.55 9856 120 11904 120 8332176 120 5842064 120 5843600 120 8339344 120 16256 120.05 9088 120.25 10880 120.5 5843600 120.5 9344 121 10880 121 5842576 121 8339344 121 8355216 121 
+Events 5843600 121 16256 121.05 32128 121.05 10880 121.5 5843600 121.5 9856 122 10880 122 8332176 122 5842064 122 5843600 122 8339344 122 16256 122.05 9088 122.25 10880 122.5 5843600 122.5 9344 123 10880 123 5842576 123 5843600 123 8339344 123 8355216 123 16256 123.05 32128 123.05 10880 123.5 5843600 123.5 9856 124 10880 124 8332176 124 5842064 124 8339344 124 
+Events 5843600 124 16256 124.05 9088 124.25 10880 124.5 5844624 124.5 8339600 124.5 16512 124.55 9344 125 11904 125 5842576 125 5843600 125 8339344 125 8355216 125 16256 125.05 32128 125.05 10880 125.5 5843600 125.5 9856 126 10880 126 8332176 126 5842064 126 8339344 126 5843600 126 16256 126.05 9088 126.25 9344 126.5 10880 126.5 5842576 126.5 8355216 126.5 32128 126.55 
+Events 9856 127 5842576 127 8355216 127 32128 127.05 9856 127.25 5842576 127.25 9856 127.5 5842576 127.5 8355216 127.5 32128 127.55 9856 127.75 5842576 127.75 9856 128 8332176 128 5842064 128 8337808 128 14720 128.05 9088 128.25 5843600 128.5 9344 129 10880 129 5842576 129 8339344 129 5843600 129 8355216 129 32128 129.05 16256 129.05 10880 129.5 5843600 129.5 9856 129.75 
+Events 8332176 129.75 5842064 129.75 10880 130 9088 130 9344 130 8332176 130 5842064 130 5843600 130 8339344 130 16256 130.05 9088 130.25 9344 130.5 10880 130.5 8332176 130.5 5842064 130.5 5843600 130.5 9088 130.75 9344 131 10880 131 5842576 131 8355216 131 5843600 131 8339344 131 16256 131.05 32128 131.05 9856 131.25 8332176 131.25 5842064 131.25 10880 131.5 9088 131.5 
+Events 9344 131.5 8332176 131.5 5842064 131.5 5843600 131.5 9088 131.75 9344 132 10880 132 8332176 132 5842064 132 5843600 132 8339344 132 16256 132.05 9088 132.25 10880 132.5 5843600 132.5 9344 133 10880 133 5842576 133 8339344 133 5843600 133 8355216 133 16256 133.05 32128 133.05 10880 133.5 5843600 133.5 9856 134 10880 134 8332176 134 5842064 134 5843600 134 
+Events 8339344 134 16256 134.05 9088 134.25 10880 134.5 5843600 134.5 9344 135 10880 135 5842576 135 5843600 135 8339344 135 8355216 135 16256 135.05 32128 135.05 8339600 135.5 10880 135.5 5844624 135.5 16512 135.55 9856 136 11904 136 8332176 136 5842064 136 8337808 136 14720 136.05 9088 136.25 5843600 136.5 9344 137 10880 137 5842576 137 5843600 137 8339344 137 
+Events 8355216 137 16256 137.05 32128 137.05 10880 137.5 5843600 137.5 9856 138 10880 138 8332176 138 5842064 138 5843600 138 8339344 138 16256 138.05 9088 138.25 10880 138.5 5843600 138.5 9344 139 10880 139 5842576 139 8339344 139 5843600 139 8355216 139 16256 139.05 32128 139.05 10880 139.5 5844624 139.5 8339600 139.5 16512 139.55 11904 140 9856 140 8332176 140 
+Events 5842064 140 5843600 140 8339344 140 16256 140.05 9088 140.25 10880 140.5 5843600 140.5 9344 141 10880 141 5842576 141 5843600 141 8339344 141 8355216 141 16256 141.05 32128 141.05 10880 141.5 5843600 141.5 9856 142 10880 142 8332176 142 5842064 142 8339344 142 5843600 142 16256 142.05 9088 142.25 10880 142.5 5843600 142.5 9344 143 10880 143 5842576 143 
+Events 5844624 143 8339600 143 8355216 143 16512 143.05 32128 143.05 9856 143.5 11904 143.5 8335504 143.5 12416 143.55 8332176 144 5842064 144 5843600 144 8339344 144 16256 144.05 9088 144.25 10880 144.5 5843600 144.5 9344 145 10880 145 5842576 145 8339344 145 8355216 145 5843600 145 16256 145.05 32128 145.05 10880 145.5 5843600 145.5 9856 146 10880 146 8332176 146 
+Events 5842064 146 5843600 146 8339344 146 16256 146.05 9088 146.25 10880 146.5 5843600 146.5 9344 147 10880 147 5842576 147 5843600 147 8339344 147 8355216 147 16256 147.05 32128 147.05 9856 147.25 8332176 147.25 5842064 147.25 9088 147.5 10880 147.5 9344 147.5 5842064 147.5 5843600 147.5 8332176 147.5 9088 147.75 9344 148 10880 148 8332176 148 5842064 148 5843600 148 
+Events 8339344 148 16256 148.05 9088 148.25 10880 148.5 5843600 148.5 9344 149 10880 149 5842576 149 5843600 149 8339344 149 8355216 149 32128 149.05 16256 149.05 10880 149.5 5843600 149.5 9856 150 10880 150 8332176 150 5843600 150 5842064 150 8339344 150 16256 150.05 9088 150.25 10880 150.5 5844624 150.5 8339600 150.5 16512 150.55 9344 151 11904 151 5842576 151 
+Events 8355216 151 32128 151.05 9856 151.5 8335504 151.5 12416 151.55 8332176 152 5842064 152 8337808 152 14720 152.05 9088 152.25 5843600 152.5 9344 153 10880 153 5842576 153 8339344 153 5843600 153 8355216 153 16256 153.05 32128 153.05 10880 153.5 5843600 153.5 9856 154 10880 154 8332176 154 5842064 154 5843600 154 8339344 154 16256 154.05 9088 154.25 10880 154.5 
+Events 5843600 154.5 9344 154.75 8332176 154.75 5842064 154.75 10880 155 9088 155 9344 155 5842576 155 5843600 155 8339344 155 8355216 155 16256 155.05 32128 155.05 9856 155.5 10880 155.5 8332176 155.5 5842064 155.5 5843600 155.5 9088 155.75 9344 156 10880 156 8332176 156 5842064 156 5843600 156 8339344 156 16256 156.05 9088 156.25 10880 156.5 5843600 156.5 9344 157 
+Events 10880 157 5842576 157 5843600 157 8339344 157 8355216 157 16256 157.05 32128 157.05 10880 157.5 5843600 157.5 9856 158 10880 158 8332176 158 5844624 158 5842064 158 8339600 158 16512 158.05 9088 158.25 9344 158.5 11904 158.5 5842576 158.5 5844624 158.5 8339600 158.5 8355216 158.5 16512 158.55 32128 158.55 9856 159 11904 159 5842576 159 5844624 159 8339600 159 
+Events 8355216 159 32128 159.05 16512 159.05 9856 159.25 5842576 159.25 9856 159.5 5842576 159.5 8355216 159.5 32128 159.55 9856 159.75 5842576 159.75 11904 160 9856 160 8332176 160 5842064 160 8337808 160 14720 160.05 9088 160.25 5843600 160.5 9344 161 10880 161 5842576 161 5843600 161 8339344 161 8355216 161 32128 161.05 16256 161.05 10880 161.5 5843600 161.5 9856 162 
+Events 10880 162 8332176 162 5842064 162 5843600 162 8339344 162 16256 162.05 9088 162.25 10880 162.5 5843600 162.5 9344 163 10880 163 5842576 163 5843600 163 8339344 163 8355216 163 16256 163.05 32128 163.05 10880 163.5 5843600 163.5 9856 164 10880 164 8332176 164 5842064 164 5843600 164 8339344 164 16256 164.05 9088 164.25 10880 164.5 5843600 164.5 9344 165 
+Events 10880 165 5842576 165 5843600 165 8339344 165 8355216 165 32128 165.05 16256 165.05 10880 165.5 5843600 165.5 9856 166 10880 166 8332176 166 5842064 166 8339344 166 5843600 166 16256 166.05 9088 166.25 9344 166.5 10880 166.5 5842576 166.5 8337808 166.5 8355216 166.5 14720 166.55 32128 166.55 9856 167 5842576 167 8355216 167 32128 167.05 9856 167.5 5844624 167.5 
+Events 8339600 167.5 16512 167.55 11904 168 8332176 168 5843600 168 5842064 168 8339344 168 16256 168.05 9088 168.25 10880 168.5 5843600 168.5 9344 169 10880 169 5842576 169 5843600 169 8339344 169 8355216 169 16256 169.05 32128 169.05 10880 169.5 5843600 169.5 9856 170 10880 170 8332176 170 5842064 170 5843600 170 8339344 170 16256 170.05 9088 170.25 9344 170.5 
+Events 10880 170.5 8332176 170.5 5842064 170.5 5843600 170.5 9088 170.75 9344 171 10880 171 5842576 171 8339344 171 5843600 171 8355216 171 16256 171.05 32128 171.05 10880 171.5 5843600 171.5 9856 171.75 8332176 171.75 5842064 171.75 10880 172 9088 172 9344 172 8332176 172 5842064 172 5843600 172 8339344 172 16256 172.05 9088 172.25 10880 172.5 5843600 172.5 9344 173 
+Events 10880 173 5842576 173 5843600 173 8339344 173 8355216 173 16256 173.05 32128 173.05 10880 173.5 5843600 173.5 9856 174 10880 174 8332176 174 5842064 174 8339344 174 5843600 174 16256 174.05 9088 174.25 10880 174.5 5843600 174.5 9344 175 10880 175 5842576 175 5844624 175 8339600 175 8355216 175 16512 175.05 32128 175.05 9856 175.5 11904 175.5 8335504 175.5 
+Events 12416 175.55 8330640 176 8332176 176 5842064 176 8336272 176 7552 176.05 13184 176.05 9088 176.25 5843600 176.5 9344 177 10880 177 5842576 177 8339344 177 8355216 177 5843600 177 16256 177.05 32128 177.05 10880 177.5 5843600 177.5 9856 178 10880 178 8332176 178 5842064 178 5843600 178 8339344 178 16256 178.05 9088 178.25 10880 178.5 5843600 178.5 9344 179 
+Events 10880 179 5842576 179 8355216 179 5843600 179 8339344 179 32128 179.05 16256 179.05 8339600 179.5 10880 179.5 5844624 179.5 16512 179.55 9856 180 11904 180 8332176 180 5842064 180 5843600 180 8339344 180 16256 180.05 9088 180.25 10880 180.5 5843600 180.5 9344 181 10880 181 5842576 181 5843600 181 8339344 181 8355216 181 16256 181.05 32128 181.05 10880 181.5 
+Events 5843600 181.5 9856 182 10880 182 8332176 182 5842064 182 8339344 182 5843600 182 16256 182.05 9088 182.25 10880 182.5 5843600 182.5 9344 183 10880 183 5842576 183 5844624 183 8339600 183 8355216 183 16512 183.05 32128 183.05 9856 183.5 11904 183.5 5842576 183.5 8355216 183.5 32128 183.55 9856 183.75 5842576 183.75 9856 184 8332176 184 5842064 184 8337808 184 
+Events 14720 184.05 9088 184.25 5843600 184.5 9344 185 10880 185 5842576 185 8339344 185 5843600 185 8355216 185 16256 185.05 32128 185.05 10880 185.5 5843600 185.5 9856 186 10880 186 8332176 186 5842064 186 5843600 186 8339344 186 16256 186.05 9088 186.25 10880 186.5 5843600 186.5 9344 187 10880 187 5842576 187 5843600 187 8339344 187 8355216 187 16256 187.05 
+Events 32128 187.05 9856 187.5 10880 187.5 8332176 187.5 5842064 187.5 9088 187.75 9344 187.75 8332176 187.75 5842064 187.75 9088 188 9344 188 5842064 188 5843600 188 8339344 188 8332176 188 16256 188.05 9088 188.25 10880 188.5 5843600 188.5 9344 189 10880 189 5842576 189 5843600 189 8339344 189 8355216 189 16256 189.05 32128 189.05 10880 189.5 5843600 189.5 9856 190 
+Events 10880 190 8332176 190 5842064 190 5843600 190 8339344 190 16256 190.05 9088 190.25 10880 190.5 5843600 190.5 9344 191 10880 191 5842576 191 5844624 191 8339600 191 8355216 191 16512 191.05 32128 191.05 9856 191.5 11904 191.5 8335504 191.5 12416 191.55 8332176 192 5842064 192 8337808 192 9088 192.25 14720 192.5 5843600 192.5 9344 193 10880 193 5842576 193 
+Events 5843600 193 8339344 193 8355216 193 32128 193.05 16256 193.05 10880 193.5 5843600 193.5 9856 194 10880 194 8332176 194 5842064 194 5843600 194 8339344 194 16256 194.05 9088 194.25 10880 194.5 5843600 194.5 9344 195 10880 195 5842576 195 5843600 195 8339344 195 8355216 195 16256 195.05 32128 195.05 10880 195.5 5843600 195.5 9856 196 10880 196 8332176 196 
+Events 5842064 196 5843600 196 8339344 196 16256 196.05 9088 196.25 10880 196.5 5843600 196.5 9344 197 10880 197 5842576 197 8339344 197 8355216 197 5843600 197 16256 197.05 32128 197.05 10880 197.5 5843600 197.5 9856 198 10880 198 5841808 198 5842064 198 5843600 198 8339344 198 16256 198.05 9088 198.25 10880 198.5 5843600 198.5 9344 199 10880 199 5842576 199 
+Events 5843600 199 8339344 199 8355216 199 16256 199.05 32128 199.05 5844624 199.5 10880 199.5 8339600 199.5 16512 199.55 9856 200 11904 200 5841808 200 5842064 200 5843600 200 8339344 200 16256 200.05 9088 200.25 10880 200.5 5843600 200.5 9344 201 10880 201 5842576 201 5843600 201 8339344 201 8355216 201 16256 201.05 32128 201.05 10880 201.5 5843600 201.5 9856 202 
+Events 10880 202 8332176 202 5842064 202 5843600 202 8339344 202 16256 202.05 9088 202.25 10880 202.5 5843600 202.5 9344 203 10880 203 5842576 203 5843600 203 8339344 203 8355216 203 16256 203.05 32128 203.05 10880 203.5 5843600 203.5 9856 204 10880 204 8332176 204 5842064 204 5843600 204 8339344 204 16256 204.05 9088 204.25 10880 204.5 5843600 204.5 9344 205 
+Events 10880 205 5842576 205 5843600 205 8339344 205 8355216 205 16256 205.05 32128 205.05 10880 205.5 5843600 205.5 9856 206 10880 206 8332176 206 5842064 206 5843600 206 8339344 206 16256 206.05 9088 206.25 10880 206.5 5843600 206.5 9344 207 10880 207 5842576 207 5844624 207 8339600 207 8355216 207 16512 207.05 32128 207.05 9856 207.5 11904 207.5 5842576 207.5 
+Events 8355216 207.5 32128 207.55 9856 207.75 5842576 207.75 9856 208 8332176 208 5842064 208 8337808 208 9088 208.25 5843600 208.5 14720 208.5 9344 209 10880 209 5842576 209 5843600 209 8339344 209 8355216 209 16256 209.05 32128 209.05 10880 209.5 5843600 209.5 9856 210 10880 210 8332176 210 5842064 210 5843600 210 8339344 210 16256 210.05 9088 210.25 10880 210.5 
+Events 5843600 210.5 9344 211 10880 211 5842576 211 8355216 211 5843600 211 32128 211.05 10880 211.5 5844624 211.5 8339600 211.5 16512 211.55 11904 212 9856 212 8332176 212 5842064 212 5843600 212 8339344 212 16256 212.05 9088 212.25 10880 212.5 5843600 212.5 9344 213 10880 213 5842576 213 5843600 213 8339344 213 8355216 213 16256 213.05 32128 213.05 10880 213.5 
+Events 5843600 213.5 9856 214 10880 214 8332176 214 5842064 214 5843600 214 8339344 214 16256 214.05 9088 214.25 10880 214.5 9344 214.5 8332176 214.5 5842064 214.5 5843600 214.5 9088 214.75 9344 215 10880 215 5842576 215 5844624 215 8339600 215 8355216 215 16512 215.05 32128 215.05 11904 215.5 5843600 215.5 9856 215.75 5842064 215.75 8332176 215.75 10880 216 9088 216 
+Events 9344 216 8332176 216 5843600 216 8339344 216 5842064 216 16256 216.05 9088 216.25 10880 216.5 5843600 216.5 9344 217 10880 217 5842576 217 5843600 217 8339344 217 8355216 217 16256 217.05 32128 217.05 10880 217.5 5843600 217.5 9856 218 10880 218 8332176 218 5842064 218 8339344 218 5843600 218 16256 218.05 9088 218.25 10880 218.5 5843600 218.5 9344 219 
+Events 10880 219 5842576 219 5843600 219 8339344 219 8355216 219 16256 219.05 32128 219.05 5844624 219.5 10880 219.5 8339600 219.5 16512 219.55 11904 220 9856 220 8332176 220 5842064 220 5843600 220 8339344 220 16256 220.05 9088 220.25 10880 220.5 5843600 220.5 9344 221 10880 221 5842576 221 5843600 221 8339344 221 8355216 221 32128 221.05 16256 221.05 10880 221.5 
+Events 5843600 221.5 9856 222 10880 222 8332176 222 5842064 222 5843600 222 8339344 222 16256 222.05 9088 222.25 10880 222.5 5843600 222.5 9344 223 10880 223 5842576 223 5843600 223 8339344 223 8355216 223 16256 223.05 32128 223.05 10880 223.5 5843600 223.5 9856 224 10880 224 8332176 224 5842064 224 8336272 224 13184 224.05 9088 224.25 5843600 224.5 9344 225 
+Events 10880 225 5842576 225 5843600 225 8339344 225 8355216 225 16256 225.05 32128 225.05 10880 225.5 5843600 225.5 9856 226 10880 226 8332176 226 5842064 226 5843600 226 8339344 226 16256 226.05 9088 226.25 10880 226.5 5843600 226.5 9344 227 10880 227 5842576 227 5843600 227 8339344 227 8355216 227 32128 227.05 16256 227.05 10880 227.5 5843600 227.5 9856 228 
+Events 10880 228 8332176 228 5842064 228 5843600 228 8339344 228 16256 228.05 9088 228.25 10880 228.5 5843600 228.5 9344 229 10880 229 5842576 229 5843600 229 8339344 229 8355216 229 16256 229.05 32128 229.05 10880 229.5 5843600 229.5 9856 230 10880 230 8332176 230 5843600 230 5842064 230 8339344 230 16256 230.05 9088 230.25 10880 230.5 5843600 230.5 9344 231 
+Events 10880 231 5842576 231 5843600 231 8339344 231 8355216 231 16256 231.05 32128 231.05 10880 231.5 5844624 231.5 8339600 231.5 16512 231.55 9856 232 11904 232 8332176 232 5842064 232 5843600 232 8339344 232 16256 232.05 9088 232.25 10880 232.5 5843600 232.5 9344 233 10880 233 5842576 233 8339344 233 5843600 233 8355216 233 16256 233.05 32128 233.05 10880 233.5 
+Events 5843600 233.5 9856 234 10880 234 8332176 234 5842064 234 5843600 234 8339344 234 16256 234.05 9088 234.25 10880 234.5 5843600 234.5 9344 235 10880 235 5842576 235 5843600 235 8339344 235 8355216 235 16256 235.05 32128 235.05 10880 235.5 5843600 235.5 9856 236 10880 236 8332176 236 5842064 236 5843600 236 8339344 236 16256 236.05 9088 236.25 10880 236.5 
+Events 5843600 236.5 9344 237 10880 237 5842576 237 5843600 237 8339344 237 8355216 237 16256 237.05 32128 237.05 9856 237.5 10880 237.5 8332176 237.5 5842064 237.5 5843600 237.5 9088 237.75 9344 238 10880 238 8332176 238 5842064 238 5843600 238 8339344 238 16256 238.05 9088 238.25 10880 238.5 5843600 238.5 9344 239 10880 239 5842576 239 5844624 239 8339600 239 
+Events 8355216 239 16512 239.05 32128 239.05 9856 239.5 11904 239.5 5842576 239.5 8355216 239.5 32128 239.55 9856 239.75 5842576 239.75 9856 240 8332176 240 5842064 240 5843600 240 8339344 240 16256 240.05 9088 240.25 10880 240.5 5843600 240.5 9344 241 10880 241 5842576 241 5843600 241 8339344 241 8355216 241 16256 241.05 32128 241.05 10880 241.5 5843600 241.5 9856 242 
+Events 10880 242 8332176 242 5842064 242 5843600 242 8339344 242 16256 242.05 9088 242.25 10880 242.5 5843600 242.5 9344 243 10880 243 5842576 243 5843600 243 8339344 243 8355216 243 16256 243.05 32128 243.05 10880 243.5 5844624 243.5 8339600 243.5 16512 243.55 9856 244 11904 244 8332176 244 5842064 244 5843600 244 8339344 244 16256 244.05 9088 244.25 10880 244.5 
+Events 5843600 244.5 9344 245 10880 245 5842576 245 5843600 245 8339344 245 8355216 245 16256 245.05 32128 245.05 10880 245.5 5843600 245.5 9856 246 10880 246 8332176 246 5842064 246 5843600 246 8339344 246 16256 246.05 9088 246.25 10880 246.5 5843600 246.5 9344 247 10880 247 5842576 247 5844624 247 8339600 247 8355216 247 16512 247.05 32128 247.05 9856 247.5 
+Events 11904 247.5 8332176 247.5 5842064 247.5 9088 247.75 9344 247.75 8332176 247.75 5842064 247.75 9088 248 9344 248 8332176 248 5842064 248 5843600 248 8339344 248 16256 248.05 9088 248.25 10880 248.5 5843600 248.5 9344 249 10880 249 5842576 249 8339344 249 5843600 249 8355216 249 16256 249.05 32128 249.05 10880 249.5 5843600 249.5 9856 250 10880 250 8332176 250 
+Events 5842064 250 5843600 250 8339344 250 16256 250.05 9088 250.25 10880 250.5 5843600 250.5 9344 251 10880 251 5842576 251 5843600 251 8339344 251 8355216 251 16256 251.05 32128 251.05 8339600 251.5 10880 251.5 5844624 251.5 16512 251.55 9856 252 11904 252 8332176 252 5842064 252 5843600 252 8339344 252 16256 252.05 9088 252.25 10880 252.5 5843600 252.5 9344 253 
+Events 10880 253 5842576 253 5843600 253 8339344 253 8355216 253 16256 253.05 32128 253.05 10880 253.5 5843600 253.5 9856 254 10880 254 8332176 254 5842064 254 5843600 254 8339344 254 16256 254.05 9088 254.25 10880 254.5 5843600 254.5 9344 255 10880 255 5842576 255 5843600 255 8339344 255 8355216 255 16256 255.05 32128 255.05 10880 255.5 5843600 255.5 9856 256 
+Events 10880 256 8332176 256 5842064 256 8337808 256 14720 256.05 9088 256.25 5843600 256.5 9344 257 10880 257 5842576 257 5843600 257 8339344 257 8355216 257 16256 257.05 32128 257.05 10880 257.5 5843600 257.5 9856 258 10880 258 8332176 258 5842064 258 5843600 258 8339344 258 16256 258.05 9088 258.25 10880 258.5 5843600 258.5 9344 259 10880 259 5842576 259 
+Events 5843600 259 8339344 259 8355216 259 16256 259.05 32128 259.05 9856 259.25 8332176 259.25 5842064 259.25 10880 259.5 9088 259.5 9344 259.5 8332176 259.5 5842064 259.5 5843600 259.5 9088 259.75 9344 260 10880 260 8332176 260 5843600 260 5842064 260 8339344 260 16256 260.05 9088 260.25 10880 260.5 5843600 260.5 9344 261 10880 261 5842576 261 5843600 261 8339344 261 
+Events 8355216 261 16256 261.05 32128 261.05 10880 261.5 5843600 261.5 9856 262 10880 262 8332176 262 5842064 262 5843600 262 8339344 262 16256 262.05 9088 262.25 10880 262.5 5843600 262.5 9344 263 10880 263 5842576 263 8355216 263 5843600 263 8339344 263 16256 263.05 32128 263.05 10880 263.5 5844624 263.5 8339600 263.5 16512 263.55 9856 264 11904 264 8332176 264 
+Events 5842064 264 5843600 264 8339344 264 16256 264.05 9088 264.25 10880 264.5 5843600 264.5 9344 265 10880 265 5842576 265 5843600 265 8339344 265 8355216 265 16256 265.05 32128 265.05 10880 265.5 5843600 265.5 9856 266 10880 266 8332176 266 5842064 266 8339344 266 5843600 266 16256 266.05 9088 266.25 10880 266.5 5843600 266.5 9344 267 10880 267 5842576 267 
+Events 5843600 267 8339344 267 8355216 267 16256 267.05 32128 267.05 10880 267.5 5843600 267.5 9856 267.75 5842064 267.75 8332176 267.75 10880 268 9088 268 9344 268 8332176 268 5843600 268 5842064 268 8339344 268 16256 268.05 9088 268.25 10880 268.5 5843600 268.5 9344 269 10880 269 5842576 269 5843600 269 8339344 269 8355216 269 16256 269.05 32128 269.05 10880 269.5 
+Events 5843600 269.5 9856 270 10880 270 8332176 270 5842064 270 5843600 270 8339344 270 16256 270.05 9088 270.25 10880 270.5 5843600 270.5 9344 271 10880 271 5842576 271 8339600 271 5844624 271 8355216 271 32128 271.05 16512 271.05 9856 271.5 11904 271.5 8335504 271.5 12416 271.55 8332176 272 5842064 272 8336272 272 13184 272.05 9088 272.25 5843600 272.5 9344 273 
+Events 10880 273 5842576 273 5843600 273 8339344 273 8355216 273 16256 273.05 32128 273.05 10880 273.5 5843600 273.5 9856 274 10880 274 8332176 274 5843600 274 5842064 274 8339344 274 16256 274.05 9088 274.25 10880 274.5 5843600 274.5 9344 275 10880 275 5842576 275 5843600 275 8339344 275 8355216 275 16256 275.05 32128 275.05 10880 275.5 5844624 275.5 8339600 275.5 
+Events 16512 275.55 9856 276 11904 276 8332176 276 5842064 276 5843600 276 8339344 276 16256 276.05 9088 276.25 10880 276.5 5843600 276.5 9344 277 10880 277 5842576 277 8339344 277 5843600 277 8355216 277 16256 277.05 32128 277.05 10880 277.5 5843600 277.5 9856 278 10880 278 8332176 278 5842064 278 5843600 278 8339344 278 16256 278.05 9088 278.25 10880 278.5 
+Events 5843600 278.5 9344 279 10880 279 5842576 279 5844624 279 8339600 279 8355216 279 16512 279.05 32128 279.05 9856 279.5 11904 279.5 5842576 279.5 8355216 279.5 32128 279.55 9856 279.75 5842576 279.75 9856 280 8332176 280 5842064 280 5843600 280 8339344 280 16256 280.05 9088 280.25 10880 280.5 5843600 280.5 9344 281 10880 281 5842576 281 5843600 281 8339344 281 
+Events 8355216 281 16256 281.05 32128 281.05 10880 281.5 5843600 281.5 9856 282 10880 282 8332176 282 5842064 282 5843600 282 8339344 282 16256 282.05 9088 282.25 10880 282.5 5843600 282.5 9344 283 10880 283 5842576 283 5843600 283 8339344 283 8355216 283 16256 283.05 32128 283.05 10880 283.5 5843600 283.5 9856 283.75 8332176 283.75 5842064 283.75 10880 284 9088 284 
+Events 9344 284 8332176 284 5842064 284 5843600 284 8339344 284 16256 284.05 9088 284.25 10880 284.5 5843600 284.5 9344 285 10880 285 5842576 285 5843600 285 8339344 285 8355216 285 16256 285.05 32128 285.05 10880 285.5 5843600 285.5 9856 286 10880 286 8332176 286 5842064 286 5843600 286 8339344 286 16256 286.05 9088 286.25 10880 286.5 5843600 286.5 9344 287 
+Events 10880 287 5842576 287 5844624 287 8339600 287 8355216 287 16512 287.05 32128 287.05 9856 287.5 11904 287.5 8335504 287.5 12416 287.55 8332176 288 5842064 288 8339344 288 5843600 288 16256 288.05 9088 288.25 10880 288.5 5843600 288.5 9344 289 10880 289 5842576 289 5843600 289 8339344 289 8355216 289 16256 289.05 32128 289.05 10880 289.5 5843600 289.5 9856 290 
+Events 10880 290 8332176 290 5842064 290 5843600 290 8339344 290 16256 290.05 9088 290.25 10880 290.5 5843600 290.5 9344 291 10880 291 5842576 291 8339344 291 5843600 291 8355216 291 16256 291.05 32128 291.05 10880 291.5 5844624 291.5 8339600 291.5 16512 291.55 11904 292 9856 292 8332176 292 5842064 292 5843600 292 8339344 292 16256 292.05 9088 292.25 10880 292.5 
+Events 5843600 292.5 9344 293 10880 293 5842576 293 5843600 293 8339344 293 8355216 293 32128 293.05 16256 293.05 10880 293.5 5843600 293.5 9856 294 10880 294 8332176 294 5843600 294 5842064 294 8339344 294 16256 294.05 9088 294.25 10880 294.5 5843600 294.5 9344 295 10880 295 5842576 295 5843600 295 8339344 295 8355216 295 16256 295.05 32128 295.05 10880 295.5 
+Events 5843600 295.5 9856 295.75 8332176 295.75 5842064 295.75 10880 296 9088 296 9344 296 8332176 296 5842064 296 5843600 296 8339344 296 16256 296.05 9088 296.25 10880 296.5 5843600 296.5 9344 297 10880 297 5842576 297 8339344 297 8355216 297 5843600 297 16256 297.05 32128 297.05 10880 297.5 5843600 297.5 9856 298 10880 298 8332176 298 5842064 298 5843600 298 
+Events 8339344 298 16256 298.05 9088 298.25 10880 298.5 5843600 298.5 9344 299 10880 299 5842576 299 5843600 299 8339344 299 8355216 299 16256 299.05 32128 299.05 10880 299.5 5843600 299.5 9856 300 10880 300 8332176 300 5842064 300 8339344 300 5843600 300 16256 300.05 9088 300.25 10880 300.5 5843600 300.5 9344 301 10880 301 5842576 301 5843600 301 8339344 301 
+Events 8355216 301 16256 301.05 32128 301.05 10880 301.5 5843600 301.5 9856 302 10880 302 8332176 302 5842064 302 5843600 302 8339344 302 16256 302.05 9088 302.25 10880 302.5 5843600 302.5 9344 303 10880 303 5842576 303 8337808 303 8355216 303 14720 303.05 32128 303.05 9856 303.5 8355216 303.5 5842576 303.5 32128 303.55 9856 303.75 5842576 303.75 9856 304 8332176 304 
+Events 5842064 304 5843600 304 8339344 304 16256 304.05 9088 304.25 10880 304.5 5843600 304.5 9344 305 10880 305 5842576 305 5843600 305 8339344 305 8355216 305 16256 305.05 32128 305.05 10880 305.5 5843600 305.5 9856 306 10880 306 8332176 306 5842064 306 5843600 306 8339344 306 16256 306.05 9088 306.25 10880 306.5 5843600 306.5 9344 307 10880 307 5842576 307 
+Events 5843600 307 8339344 307 8355216 307 16256 307.05 32128 307.05 10880 307.5 5843600 307.5 9856 308 10880 308 8332176 308 5842064 308 5843600 308 8339344 308 16256 308.05 9088 308.25 10880 308.5 5843600 308.5 9344 309 10880 309 5842576 309 8339344 309 8355216 309 5843600 309 16256 309.05 32128 309.05 10880 309.5 5843600 309.5 9856 310 10880 310 8332176 310 
+Events 5842064 310 5843600 310 8339344 310 16256 310.05 9088 310.25 10880 310.5 5843600 310.5 9344 311 10880 311 5842576 311 8339344 311 5843600 311 8355216 311 16256 311.05 32128 311.05 10880 311.5 5844624 311.5 8339600 311.5 16512 311.55 9856 312 11904 312 8332176 312 5842064 312 5843600 312 8339344 312 16256 312.05 9088 312.25 10880 312.5 5843600 312.5 9344 313 
+Events 10880 313 5842576 313 5843600 313 8339344 313 8355216 313 16256 313.05 32128 313.05 10880 313.5 5843600 313.5 9856 314 10880 314 8332176 314 5842064 314 5843600 314 8339344 314 16256 314.05 9088 314.25 10880 314.5 5844624 314.5 8339600 314.5 16512 314.55 9344 315 11904 315 5842576 315 5843600 315 8339344 315 8355216 315 16256 315.05 32128 315.05 10880 315.5 
+Events 5843600 315.5 9856 316 10880 316 8332176 316 5842064 316 5843600 316 8339344 316 16256 316.05 9088 316.25 10880 316.5 5843600 316.5 9344 317 10880 317 5842576 317 5843600 317 8339344 317 8355216 317 16256 317.05 32128 317.05 10880 317.5 5844624 317.5 8339600 317.5 16512 317.55 9856 318 11904 318 8332176 318 5842064 318 5843600 318 8339344 318 16256 318.05 
+Events 9088 318.25 10880 318.5 5843600 318.5 9344 319 10880 319 5842576 319 5844624 319 8339600 319 8355216 319 16512 319.05 32128 319.05 9856 319.25 11904 319.25 5844624 319.25 11904 319.5 5844624 319.5 8339600 319.5 16512 319.55 11904 319.75 5842576 319.75 9856 320 8332176 320 5842064 320 5843600 320 8339344 320 16256 320.05 9088 320.25 10880 320.5 5843600 320.5 9344 321 
+Events 10880 321 5842576 321 8339344 321 5843600 321 8355216 321 16256 321.05 32128 321.05 10880 321.5 5843600 321.5 9856 322 10880 322 8332176 322 5842064 322 5843600 322 8339344 322 16256 322.05 9088 322.25 10880 322.5 5844624 322.5 8339600 322.5 16512 322.55 9344 323 11904 323 5842576 323 5843600 323 8339344 323 8355216 323 16256 323.05 32128 323.05 10880 323.5 
+Events 5843600 323.5 9856 324 10880 324 8332176 324 5842064 324 8339344 324 5843600 324 16256 324.05 9088 324.25 10880 324.5 5843600 324.5 9344 325 10880 325 5842576 325 5843600 325 8339344 325 8355216 325 16256 325.05 32128 325.05 10880 325.5 5844624 325.5 8339600 325.5 16512 325.55 9856 326 11904 326 8332176 326 5843600 326 5842064 326 8339344 326 16256 326.05 
+Events 9088 326.25 10880 326.5 5844624 326.5 8339600 326.5 16512 326.55 9344 327 11904 327 5842576 327 5843600 327 8339344 327 8355216 327 16256 327.05 32128 327.05 10880 327.5 5843600 327.5 9856 328 10880 328 8332176 328 5842064 328 8336272 328 13184 328.05 9088 328.25 5843600 328.5 9344 329 10880 329 5842576 329 8339344 329 5843600 329 8355216 329 16256 329.05 
+Events 32128 329.05 10880 329.5 5843600 329.5 9856 330 10880 330 8332176 330 5842064 330 5843600 330 8339344 330 16256 330.05 9088 330.25 10880 330.5 5843600 330.5 9344 331 10880 331 5842576 331 8339344 331 5843600 331 8355216 331 16256 331.05 32128 331.05 10880 331.5 5843600 331.5 9856 332 10880 332 8332176 332 5842064 332 5843600 332 8339344 332 16256 332.05 
+Events 9088 332.25 10880 332.5 5844624 332.5 8339600 332.5 16512 332.55 9344 333 11904 333 5842576 333 5843600 333 8339344 333 8355216 333 16256 333.05 32128 333.05 10880 333.5 5843600 333.5 9856 334 10880 334 8332176 334 5842064 334 5843600 334 8339344 334 16256 334.05 9088 334.25 10880 334.5 5843600 334.5 9344 335 10880 335 5842576 335 8339600 335 5844624 335 
+Events 8355216 335 16512 335.05 32128 335.05 9856 335.5 11904 335.5 5842576 335.5 8355216 335.5 32128 335.55 9856 335.75 5842576 335.75 9856 336 8332176 336 5842064 336 5843600 336 8339344 336 16256 336.05 9088 336.25 10880 336.5 5843600 336.5 9344 337 10880 337 5842576 337 8339344 337 5843600 337 8355216 337 16256 337.05 32128 337.05 10880 337.5 5843600 337.5 9856 338 
+Events 10880 338 8332176 338 5842064 338 5843600 338 8339344 338 16256 338.05 9088 338.25 10880 338.5 5843600 338.5 9344 339 10880 339 5842576 339 5843600 339 8339344 339 8355216 339 16256 339.05 32128 339.05 10880 339.5 5843600 339.5 9856 340 10880 340 8332176 340 8339344 340 5842064 340 5843600 340 16256 340.05 9088 340.25 10880 340.5 5843600 340.5 9344 341 
+Events 10880 341 5842576 341 5843600 341 8339344 341 8355216 341 16256 341.05 32128 341.05 10880 341.5 5843600 341.5 9856 342 10880 342 8332176 342 5842064 342 5843600 342 8339344 342 16256 342.05 9088 342.25 10880 342.5 5843600 342.5 9344 343 10880 343 5842576 343 8355216 343 5843600 343 8339344 343 16256 343.05 32128 343.05 10880 343.5 5843600 343.5 9856 344 
+Events 10880 344 8332176 344 5842064 344 5844624 344 8339600 344 16512 344.05 9088 344.25 11904 344.5 5843600 344.5 9344 345 10880 345 5842576 345 5843600 345 8339344 345 8355216 345 16256 345.05 32128 345.05 10880 345.5 5843600 345.5 9856 346 10880 346 8332176 346 5842064 346 5844624 346 8339600 346 16512 346.05 9088 346.25 11904 346.5 5843600 346.5 9344 347 
+Events 10880 347 5842576 347 5843600 347 8339344 347 8355216 347 16256 347.05 32128 347.05 10880 347.5 5843600 347.5 9856 348 10880 348 8332176 348 5842064 348 5844624 348 8339600 348 16512 348.05 9088 348.25 5843600 348.5 11904 348.5 9344 349 10880 349 5842576 349 8339344 349 8355216 349 5843600 349 16256 349.05 32128 349.05 10880 349.5 5843600 349.5 9856 350 
+Events 10880 350 8332176 350 5842064 350 5844624 350 8339600 350 16512 350.05 9088 350.25 9344 350.5 11904 350.5 8332176 350.5 5842064 350.5 5844624 350.5 8339600 350.5 16512 350.55 9088 350.75 9344 351 11904 351 8332176 351 5842576 351 5842064 351 8355216 351 32128 351.05 9088 351.25 9856 351.25 5842576 351.25 9344 351.5 9856 351.5 8332176 351.5 5842064 351.5 5842576 351.5 
+Events 8355216 351.5 32128 351.55 9088 351.75 9856 351.75 5842576 351.75 9344 352 9856 352 8332176 352 5842064 352 5843600 352 8339344 352 16256 352.05 9088 352.25 10880 352.5 5843600 352.5 9344 353 10880 353 5842576 353 5843600 353 8339344 353 8355216 353 32128 353.05 16256 353.05 10880 353.5 5843600 353.5 9856 354 10880 354 8332176 354 5842064 354 5843600 354 
+Events 8339344 354 16256 354.05 9088 354.25 10880 354.5 5843600 354.5 9344 355 10880 355 5842576 355 5843600 355 8339344 355 8355216 355 16256 355.05 32128 355.05 10880 355.5 5843600 355.5 9856 356 10880 356 8332176 356 5842064 356 5843600 356 8339344 356 16256 356.05 9088 356.25 10880 356.5 5843600 356.5 9344 357 10880 357 5842576 357 8339344 357 8355216 357 
+Events 5843600 357 16256 357.05 32128 357.05 10880 357.5 5843600 357.5 9856 358 10880 358 8332176 358 5842064 358 5843600 358 8339344 358 16256 358.05 9088 358.25 10880 358.5 5843600 358.5 9344 359 10880 359 5842576 359 5843600 359 8339344 359 8355216 359 16256 359.05 32128 359.05 10880 359.5 5844624 359.5 8339600 359.5 16512 359.55 9856 360 11904 360 8332176 360 
+Events 5842064 360 5843600 360 8339344 360 16256 360.05 9088 360.25 10880 360.5 5843600 360.5 9344 361 10880 361 5842576 361 5843600 361 8339344 361 8355216 361 16256 361.05 32128 361.05 10880 361.5 5843600 361.5 9856 362 10880 362 8332176 362 5843600 362 5842064 362 8339344 362 16256 362.05 9088 362.25 10880 362.5 5843600 362.5 9344 363 10880 363 8332176 363 
+Events 5842064 363 5842576 363 5843600 363 8339344 363 8355216 363 16256 363.05 32128 363.05 9088 363.25 9344 363.25 9856 363.25 8332176 363.25 5842064 363.25 10880 363.5 9088 363.5 9344 363.5 8332176 363.5 5842064 363.5 5843600 363.5 9088 363.75 9344 364 10880 364 8332176 364 8339344 364 5842064 364 5843600 364 16256 364.05 9088 364.25 10880 364.5 5843600 364.5 9344 365 
+Events 10880 365 5842576 365 5843600 365 8339344 365 8355216 365 16256 365.05 32128 365.05 10880 365.5 5843600 365.5 9856 366 10880 366 8332176 366 5842064 366 5843600 366 8339344 366 16256 366.05 9088 366.25 10880 366.5 5843600 366.5 9344 367 10880 367 5842576 367 5844624 367 8339600 367 8355216 367 16512 367.05 32128 367.05 9856 367.5 11904 367.5 5842576 367.5 
+Events 8355216 367.5 32128 367.55 9856 367.75 5842576 367.75 9856 368 8332176 368 5842064 368 5843600 368 8339344 368 16256 368.05 9088 368.25 10880 369 9344 372 
+Type 1
+Mute 0
+InstIntensity "Kick" 0.5
+InstIntensity "Snare" 0.5
+InstIntensity "Hi-Hat" 0.5
+InstIntensity "Racktom 1" 0.5
+InstIntensity "Racktom 2" 0.5
+InstIntensity "Racktom 3" 0.5
+InstIntensity "Floortom 1" 0.5
+InstIntensity "Floortom 2" 0.5
+InstIntensity "Cymbal 1" 0.5
+InstIntensity "Cymbal 2" 0.5
+InstIntensity "Cymbal 3" 0.5
+InstIntensity "Ride" 0.5
+InstIntensity "Cymbal 4" 0.5
+InstIntensity "Cymbal 5" 0.5
+InstrumentVelocity "Kick" 1
+InstrumentVelocity "Snare" 1
+InstrumentVelocity "Hi-Hat" 1
+InstrumentVelocity "Racktom 1" 1
+InstrumentVelocity "Racktom 2" 1
+InstrumentVelocity "Racktom 3" 1
+InstrumentVelocity "Floortom 1" 1
+InstrumentVelocity "Floortom 2" 1
+InstrumentVelocity "Cymbal 1" 1
+InstrumentVelocity "Cymbal 2" 1
+InstrumentVelocity "Cymbal 3" 1
+InstrumentVelocity "Ride" 1
+InstrumentVelocity "Cymbal 4" 1
+InstrumentVelocity "Cymbal 5" 1
+KitPieceTransform " " 42 42 "Hi-Hat Closed Tip" "Hi-Hat Closed Tip" 0 2 0 1 0 0
+AccentsOn 0
+BrowserPathParts
+FavoritePathParts
+FileName "C:\Users\Marcel\Documents\GitHub\guitar_music\Shakey_Ground_Drum_Groove.mid"
+Selected 1
+}
+}
+SetCurrentSongTrack 0
+editorVars {
+selectedTab 2
+selectedPosIx 3
+selectedArticulationIx -1
+PianoRollVisible 0
+MacroControlsVisible 0
+MixerPropsVisible 1
+SongCreatorIsVisible 0
+MidiEditSnapMode 0
+MidiEditSnapOn 1
+MidiEditSnapValue 24
+MidiEditResolutionValue 6
+MidiEditAutoScroll 1
+MidiEditPreview 1
+MidiEditNotesWithLength "34,36,35"
+SongTrackHeight 158
+DrumsMixerPresetName "Default"
+ChosenPresetTypeName s3presets
+ChosenKitPresetName ""
+ChosenMixerPresetName "Default"
+BounceCycle 0
+BounceBits 1
+BounceSeparate 0
+BounceAll 1
+BounceAllNoSilent 1
+BounceMixer 1
+BounceVol 1
+ShowHiddenMixerChannels 0
+ShowKeys 0
+}
+mixerState {
+currentInstrBoxIx 3
+currentPadIx -1
+micAssignmentVisible 0
+channelsVisible 1
+userChannelsVisible 1
+busesVisible 1
+outputsVisible 1
+}
+sqlMidiProvider {
+VisibleResultColumns 8;-1,75,1,1;0,145,0,0;11,155,0,0;4,110,0,0;6,100,0,0;7,45,0,0;8,46,0,0;3,55,0,0
+VisibleFilterColumns 5,2,4,5,7,3
+BrowserHeight 208
+PartsVisible 1
+SelectedFile -1
+searchedWordIDs ""
+searchedWords ""
+Tap2FindLoop  {
+Name "Shakey_Ground_Drum_Groove"
+RealEndTime 8
+StartTime 0
+EndTime 8
+Offset 0
+ResizeEnd 53
+tapQuantize 0
+Velocity 0
+ClearNotes
+TimeSig 4 4
+Events 5842064 0.5 5842048 1.5 5842064 1.5 5842048 2.5 5842064 2.5 5842048 3.5 5842064 3.5 5842048 4.5 5842064 4.5 5842048 5.5 5842064 5.5 5842048 6.5 5842064 6.5 5842048 7.5 5842064 7.5 5842048 7.999 
+Type 1
+Mute 0
+InstIntensity "Kick" 0.5
+InstIntensity "Snare" 0.5
+InstIntensity "Hi-Hat" 0.5
+InstIntensity "Racktom 1" 0.5
+InstIntensity "Racktom 2" 0.5
+InstIntensity "Racktom 3" 0.5
+InstIntensity "Floortom 1" 0.5
+InstIntensity "Floortom 2" 0.5
+InstIntensity "Cymbal 1" 0.5
+InstIntensity "Cymbal 2" 0.5
+InstIntensity "Cymbal 3" 0.5
+InstIntensity "Ride" 0.5
+InstIntensity "Cymbal 4" 0.5
+InstIntensity "Cymbal 5" 0.5
+InstrumentVelocity "Kick" 1
+InstrumentVelocity "Snare" 1
+InstrumentVelocity "Hi-Hat" 1
+InstrumentVelocity "Racktom 1" 1
+InstrumentVelocity "Racktom 2" 1
+InstrumentVelocity "Racktom 3" 1
+InstrumentVelocity "Floortom 1" 1
+InstrumentVelocity "Floortom 2" 1
+InstrumentVelocity "Cymbal 1" 1
+InstrumentVelocity "Cymbal 2" 1
+InstrumentVelocity "Cymbal 3" 1
+InstrumentVelocity "Ride" 1
+InstrumentVelocity "Cymbal 4" 1
+InstrumentVelocity "Cymbal 5" 1
+KitPieceTransform " " 42 42 "Hi-Hat Closed Tip" "Hi-Hat Closed Tip" 0 2 0 1 0 0
+AccentsOn 0
+BrowserPathParts "C:\Users\Marcel\Documents\GitHub\guitar_music\Shakey_Ground_Drum_Groove.mid"
+FavoritePathParts
+FileName "C:/Users/Marcel/Documents/GitHub/guitar_music/Shakey_Ground_Drum_Groove.mid"
+Selected 0
+}
+BrowserIsFavorite 0
+SortByPrio 1
+SortByTempo 1
+SortByTSig 1
+SelectedTags ""
+ExcludedTags ""
+SelectedPaths ",_EZD2MIDI_000011@SUPERIOR_DRUMMER_3/"
+ExcludedPaths ""
+}
+sqlSoundProvider {
+VisibleResultColumns 7;0,210,0,0;21,120,0,0;26,100,0,0;18,95,0,0;1,100,0,0;15,80,0,0;19,65,0,0
+VisibleFilterColumns 6,1,5,9,10,11,12
+BrowserHeight 208
+}
+BoxStatePreset "Default Box View" 0 {
+Box VolumeBoxId 1 57 1
+Box PitchBoxId 1 89 1
+Box ReverseBoxId 0 51 1
+Box ADSRBoxId 0 226 1
+Box PitchEnvelopeBoxId 0 174 1
+Box VelocityBoxId 0 225 1
+Box VelRangeBoxId 0 90 1
+Box SoftHitBoxId 0 51 1
+Box MappingBoxId 0 160 1
+Box MonitorBoxId 0 160 1
+Box LayerBoxId 0 145 1
+Box HumanizeBoxId 0 112 1
+Box HihatBoxId 0 250 0
+Box MHEBoxId 0 83 0
+Box MuteTailBoxId 0 145 0
+}
+Drumtracker {
+clearAll
+outChannel 0
+useLatency 1
+usingRegions 1
+snapMode 0
+synchTimebars 1
+playspeed 1
+trackheight 168
+loopstart -1
+loopend -1
+loopactive 0
+ClearTempoNodes
+TempoNode 120 0
+ClearTimeSigns
+TimeSignNode 4 4 0
+tempoMap 222
+163.77CdswFH1Ulbyk1at0iHw3BLh.RYtM1ajklam0iHUQkQsfiH+3SCJzfB7PWYsA2aMEFbfzVX3IDbs0iHz.CLh.xX0Imbk4FcBAWa8HxLvHBHy8VctQFSk4VOh.iHfHFbsMTXtQVZjEFckM2TooWY8HBLh3SCJ.BH7HTXxkjal8FHzkVak0iHvHBHhAWa8HxLvHxK9zfB77Bck0Fbu0TXv4SCJ.
+Track 0 {
+trackstuff -2 896
+669.zIWXis1TzUmYlAP.CHUYyUFc.DPAAD....fa001StMWYzMG.ATP......HUYyUFcRU1Yo8layAP.EDP.....AHvQk4VYxEFaSQWclYF.APwXu0lXo4VYjYUXrUWY.DPBD.........9Oo41bzIWcsUlazAkbkMVZyk1atQUdvUF.ATP......zVcrQWZIgG.ATP.......mbkYWZkcmSuQWY.DPAAPB...PcyUVPTAP.AHPa0QWY.DP.CL2ar8F.ADv.gwFaucWPxQWZiUGagQWZu41b.DP.BT2bkAkbuoVYiQmQowVY.DP.B.mbuoVYiQmQowVYPEFcnAP.BT..zIWXislSg0VY.DPBEPkbgM1ZfDC.zglbkMGSkYWYrAP.IP.....vLyL0+L2XgwVYFE1Xz8lb.DPBD.........+OlklajMUZskFagIGUnIWYyAP.IP.........3+.mbkYWZkc2Prk1XqAP.ALvXrk1XqQWdvUF.ATP......HFak4FYlE1Xz8lb.DPBD.........9OsUGazkFUnIWYyMUZ5UF.ATP.F....zVcrQWZTglbkMG.AjAB................................hwVYkQFUxE1XqMUZ5UF.ATP.......fbkcVZu4F.AfPXs8VctQGUnIWYyAP.IP.....vLyL0+vVZtUFUnIWYyAP.IP.....3bN1m+HFakUFYTglbkMG.Aj.A..........fag0VY.DfBEHUYmk1atABL.fWL.DPBD...........3IC.Aj.A..........Pa0wFcoQEZxU1bSkldkAP.EDfA....sUGazkFUnIWYyAP.Yf..................................
+}
+}
+SongCreator {
+ClearSuggestions
+}
+SyncToHost 0 0
+MidiInChannel -1
+STMetronomeOn 0
+EdrumPreset 0 "empty_id" {
+Trafo 129 {
+curve {
+0 0 0
+1 0.06299212574958801 0.06299212574958801
+2 0.2362204790115356 0.2362204790115356
+3 0.4724409580230713 0.4724409580230713
+4 0.7086614370346069 0.7086614370346069
+5 0.8267716765403748 0.8267716765403748
+6 0.9448819160461426 0.9448819160461426
+7 0.9921259880065918 0.9921259880065918
+8 1 1
+}
+}
+Trafo 132 {
+curve {
+0 0 0
+1 0.06299212574958801 0.06299212574958801
+2 0.2362204790115356 0.2362204790115356
+3 0.4724409580230713 0.4724409580230713
+4 0.7086614370346069 0.7086614370346069
+5 0.8267716765403748 0.8267716765403748
+6 0.9448819160461426 0.9448819160461426
+7 0.9921259880065918 0.9921259880065918
+8 1 1
+}
+}
+Trafo 144 {
+curve {
+0 0 0
+1 0.2362204790115356 0.2362204790115356
+2 0.9055117964744568 0.9055117964744568
+3 1 1
+}
+}
+StoredTrafo 144 {
+lo 0 20
+}
+StoredTrafo 129 {
+lo 0 20
+}
+StoredTrafo 132 {
+lo 0 20
+}
+}
+MetronomeSettings {
+MetronomeOutChannel 0
+MetronomeNotes 0
+MetronomeOnBeatSound 0
+MetronomeOffBeatSound 1
+MetronomeOnBeatVolume 1
+MetronomeOffBeatVolume 1
+}
+ 

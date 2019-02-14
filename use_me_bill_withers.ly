@@ -58,19 +58,19 @@ Key = { \key d \major }
 
 % ############ Horns ############
 
-% ------ Tenor Saxophone ------
-tenor = \transpose c d \relative c'' {
+% ------ Alto Saxophone ------
+alto = \transpose c a \relative c' {
   \Key
   \main_riff
 }
-tenorHarmony = \transpose c' a {
+altoHarmony = \transpose c' a {
   \jazzChords
 }
-tenorSax = {
+altoSax = {
   \global
   \clef treble
   <<
-    \tenor
+    \alto
   >>
 }
 
@@ -208,10 +208,10 @@ drumContents = {
   <<
     \new StaffGroup = "horns" <<
       \new Staff = "tenosax" \with {
-        instrumentName = #"Tenor Sax"
-        midiInstrument = #"tenor sax"
+        instrumentName = #"Alto Sax"
+        midiInstrument = #"alto sax"
       }
-      \tenorSax
+      \altoSax
     >>
 
     \new StaffGroup = "rhythm" <<
