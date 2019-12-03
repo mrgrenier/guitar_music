@@ -1,7 +1,7 @@
 \version "2.18.2"
 \header {
   title = "Use Me"
-  subtitle = "Funk-n-A"
+  subtitle = "Baritone Guitar Tunning (B E A D Gb B)"
   composer = "Bill Withers"
   tagline = \markup {
     \column {
@@ -216,7 +216,9 @@ drumContents = {
 
     \new StaffGroup = "rhythm" <<
       \new ChordNames = "chords" \gtrHarmony
-      \new TabStaff = "guitar"  \with { instrumentName = #"Guitar" }
+      \new TabStaff = "guitar"  \with { 
+	     instrumentName = #"Guitar" stringTunings = \stringTuning <b,, e, a, d fs b>
+		 }
       \guitar
       \new PianoStaff = "piano" \with {
         instrumentName = #"Piano"
