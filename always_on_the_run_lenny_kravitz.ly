@@ -70,12 +70,13 @@ altoSax = {
 % ------ Guitar ------
 gtr = \relative c' {
   \Key
+  \clef moderntab
   \set TabStaff.minimumFret = #1
   r2. <fs' cs a>4 | 
   e,,,8 e'16\4 r16 d16\4 \glissando cs\4 \deadNote e,\5 d'\4 r \deadNote e, g'\3( d) \deadNote a e'8.\4 | 
-  e,8 e'16\4 r16 d16\4 \glissando cs\4 \deadNote e,\5 d'\4 r d\4 d\4( b\5) g e\6 d'\4 e\4 | 
+  e,8 e'16\4 r16 d16\4 \glissando cs\4 \deadNote e,\5 d'\4 r d\4 d\4( b\5) g e\5 d'\3 e\3 | 
   e,8 e'16\4 r16 d16\4 \glissando cs\4 \deadNote e,\5 d'\4 r \deadNote e, g'\3( d) \deadNote a e'8.\4 | 
-  e,8 e'16\4 r16 d16\4 \glissando cs\4 \deadNote e,\5 d'\4 r d\4 d\4( b\5) g e\6 d'\4 e\4 | 
+  e,8 e'16\4 r16 d16\4 \glissando cs\4 \deadNote e,\5 d'\4 r d\4 d\4( b\5) g e\5 d'\3 e\3 | 
 }
 gtrHarmony = \chordmode {
   \jazzChords
@@ -94,6 +95,7 @@ guitar = {
 % ------ Bass Guitar ------
 Bass = \relative c {
   \Key
+    \clef moderntab
   \set TabStaff.minimumFret = #5
   r1 | r1 | r1 | r1 |
   r4 r8. g'16 g16 g16 \deadNote g16 fs16 r16  g,16\3 d'16\2 fs16\1 |
@@ -150,7 +152,7 @@ drumContents = {
       \with { 
         instrumentName = \markup \center-column { "Baritone" "Guitar" } 
 	 stringTunings = \stringTuning <b,, e, a, d fs b>
-}
+      }
       \guitar
       \new TabStaff = "bass"  \with {
         instrumentName = #"Bass" stringTunings = #bass-tuning
