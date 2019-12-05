@@ -1,0 +1,3728 @@
+SAMPLER {
+HQ {
+soundlib "SL-SUPERIOR_DRUMMER_3"
+mastervol 1
+mastervol2 1
+}
+xmics {
+mic {
+name "X-Cowbell"
+bouncename "X-Cowbell"
+track 3
+}
+mic {
+name "X-WoodBlocks"
+mixname "X-Woodlock"
+bouncename "X-Woodlock"
+track 3
+}
+mic {
+name "X-Timbale1"
+mixname "X-Timbales"
+bouncename "X-Timbales"
+track 6
+}
+mic {
+name "X-PercS-11"
+mixname "X-One Shot OH1"
+stereo out in
+track 0
+}
+mic {
+name "X-PercS-1R1"
+always
+stereo out in
+track 0
+}
+}
+instbox 0 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "KickR"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+"X-Cowbell" "X-Cowbell" 0 34
+"X-WoodBlocks" "X-Woodlock" 0 35
+"X-Timbale1" "X-Timbales" 0 36
+"X-PercS-11" "X-One Shot OH1" 1 38
+}
+micmap {
+nrmaster 40
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"KickR" 4 4 4
+}
+drum "Kick1"  "Felt" 1
+pads {
+pad kickR {
+usemic "Kick-In" "Kick-Out" "Kick-Sub" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad kickO {
+usemic "Kick-In" "Kick-Out" "Kick-Sub" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+alias kickO 36
+alias kickR 35
+}
+}
+}
+instbox 1 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Snare"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+"X-Cowbell" "X-Cowbell" 0 34
+"X-WoodBlocks" "X-Woodlock" 0 35
+"X-Timbale1" "X-Timbales" 0 36
+"X-PercS-11" "X-One Shot OH1" 1 38
+}
+micmap {
+nrmaster 40
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Snare" 4 4 4 {
+"snareR" 6 6 6
+}
+}
+drum "Snare1"  "Drumsticks" 1
+pads {
+pad shakeback {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad shakebackE {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+futureimmediate
+maxpoly 8
+}
+pad shake {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad shakeE {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+futureimmediate
+maxpoly 8
+}
+pad snareTH {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad snareMT {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad snareRF {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+fadetime 0.2
+}
+pad snareFL {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad snareMC {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 0.501187
+maxpoly 8
+}
+pad snareFO {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1.5
+maxpoly 8
+}
+pad snareRO {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad snareSL {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad snareFX {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad snareR {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 0.501187
+maxpoly 8
+}
+pad snareCtrl {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+sendnoteoff
+maxpoly 8
+}
+pad snareTrig {
+usemic "SnareTop" "SnareBottom" "SnareBottomR" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+sendnoteoff
+maxpoly 8
+}
+alias snareTrig 6
+alias snareCtrl CC16
+alias snareR 38
+alias snareFX 40
+alias snareSL 37
+alias snareRO 71
+alias snareFO 33
+alias snareMC 125
+alias snareFL 69
+alias snareRF 39
+alias snareMT 68
+alias snareTH 70
+alias shakeE 67
+alias shake 127
+alias shakebackE 66
+alias shakeback 126
+}
+}
+}
+instbox 2 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Hats"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+"X-Cowbell" "X-Cowbell" 0 34
+"X-WoodBlocks" "X-Woodlock" 0 35
+"X-Timbale1" "X-Timbales" 0 36
+"X-PercS-11" "X-One Shot OH1" 1 38
+}
+micmap {
+nrmaster 40
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Hats" 4 4 4 {
+"hatsCL" 6 6 6
+"hatsTP" 6 6 6
+"hatsSQH" 6 6 6
+"hatsPLO" 2 3 4
+}
+}
+drum "Hats1"  "Drumsticks" 1
+pads {
+pad hatsM5 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsM4 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsM3 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsM2 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsM1 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsM0 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsBM {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsTM {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsB5 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsB4 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsB3 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsB2 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsB1 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsB0 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsBL {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsTB {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsT5 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsT4 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsT3 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsT2 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsT1 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsT0 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad hatsTP {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad hatsTT {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad hatsO5 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+}
+pad hatsO4 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad hatsO3 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad hatsO2 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad hatsO1 {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad hatsLO {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad hatsCL {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad hatsCT {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad hatsPL {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad hatsPLO {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad hatsSQH {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+ cycle NOT S 
+cycle NOT H 
+maxpoly 8
+blocksounds
+}
+pad hatsCtrl {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+sendnoteoff
+maxpoly 8
+curve {
+0 0 0
+1 0.0629921 0.0629921
+2 0.23622 0.23622
+3 0.472441 0.472441
+4 0.708661 0.708661
+5 0.826772 0.826772
+6 0.944882 0.944882
+7 0.992126 0.992126
+8 1 1
+}
+}
+pad hatsTrig {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+sendnoteoff
+maxpoly 8
+}
+pad hatsTipTrig {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+sendnoteoff
+maxpoly 8
+}
+pad hatsBellTrig {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+sendnoteoff
+maxpoly 8
+}
+pad hatsShaftTrig {
+usemic "Hats" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+sendnoteoff
+maxpoly 8
+}
+alias hatsShaftTrig 20
+alias hatsBellTrig 9
+alias hatsTipTrig 8
+alias hatsTrig 7
+alias hatsCtrl CC4 CC1
+alias hatsSQH 65
+alias hatsPLO 23
+alias hatsPL 21 10 44
+alias hatsCT 62
+alias hatsCL 22
+alias hatsLO 64
+alias hatsO1 24
+alias hatsO2 25
+alias hatsO3 26
+alias hatsO4 60
+alias hatsTT 63
+alias hatsTP 61 42
+alias hatsT0 12
+alias hatsT1 13
+alias hatsT2 14
+alias hatsT3 15
+alias hatsT4 16
+alias hatsT5 17
+alias hatsBL 119
+alias hatsB0 120
+alias hatsB1 121
+alias hatsB2 122
+alias hatsB3 123
+alias hatsB4 124
+}
+}
+}
+instbox 3 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Tom1"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+"X-Cowbell" "X-Cowbell" 0 34
+"X-WoodBlocks" "X-Woodlock" 0 35
+"X-Timbale1" "X-Timbales" 0 36
+"X-PercS-11" "X-One Shot OH1" 1 38
+}
+micmap {
+nrmaster 40
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Tom1" 4 4 4
+}
+drum "Tom1-1"  "Drumsticks" 1
+pads {
+pad tom1MT {
+usemic "SnareBottom" "SnareBottomR" "Tom1" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad tom1RO {
+usemic "SnareBottom" "SnareBottomR" "Tom1" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad tom1FX {
+usemic "SnareBottom" "SnareBottomR" "Tom1" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad tom1R {
+usemic "SnareBottom" "SnareBottomR" "Tom1" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 0.398107
+maxpoly 8
+}
+alias tom1R 48
+alias tom1FX 82
+alias tom1RO 81
+}
+}
+}
+instbox 4 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Tom2"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+"X-Cowbell" "X-Cowbell" 0 34
+"X-WoodBlocks" "X-Woodlock" 0 35
+"X-Timbale1" "X-Timbales" 0 36
+"X-PercS-11" "X-One Shot OH1" 1 38
+}
+micmap {
+nrmaster 40
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Tom2" 4 4 4
+}
+drum "Tom8-2"  "Drumsticks" 1
+pads {
+pad tom2MT {
+usemic "SnareBottom" "SnareBottomR" "Tom2" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad tom2RO {
+usemic "SnareBottom" "SnareBottomR" "Tom2" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad tom2FX {
+usemic "SnareBottom" "SnareBottomR" "Tom2" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad tom2R {
+usemic "SnareBottom" "SnareBottomR" "Tom2" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 0.398107
+maxpoly 8
+}
+alias tom2R 47
+alias tom2FX 80
+alias tom2RO 79
+}
+}
+}
+instbox 5 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Tom3"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+"X-Cowbell" "X-Cowbell" 0 34
+"X-WoodBlocks" "X-Woodlock" 0 35
+"X-Timbale1" "X-Timbales" 0 36
+"X-PercS-11" "X-One Shot OH1" 1 38
+}
+micmap {
+nrmaster 40
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Tom3" 4 4 4
+}
+drum -  "Drumsticks" 1
+pads {
+pad tom3MT {
+usemic "SnareBottom" "SnareBottomR" "Tom3" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad tom3RO {
+usemic "SnareBottom" "SnareBottomR" "Tom3" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad tom3FX {
+usemic "SnareBottom" "SnareBottomR" "Tom3" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad tom3R {
+usemic "SnareBottom" "SnareBottomR" "Tom3" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 0.398107
+maxpoly 8
+}
+alias tom3R 45
+alias tom3FX 78
+alias tom3RO 77
+}
+}
+}
+instbox 6 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Tom4"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+"X-Cowbell" "X-Cowbell" 0 34
+"X-WoodBlocks" "X-Woodlock" 0 35
+"X-Timbale1" "X-Timbales" 0 36
+"X-PercS-11" "X-One Shot OH1" 1 38
+}
+micmap {
+nrmaster 40
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Tom4" 4 4 4
+}
+drum "Tom1-4"  "Drumsticks" 1
+pads {
+pad tom4MT {
+usemic "SnareBottom" "SnareBottomR" "Tom4" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad tom4RO {
+usemic "SnareBottom" "SnareBottomR" "Tom4" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad tom4FX {
+usemic "SnareBottom" "SnareBottomR" "Tom4" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad tom4R {
+usemic "SnareBottom" "SnareBottomR" "Tom4" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 0.398107
+maxpoly 8
+}
+alias tom4R 43
+alias tom4FX 75
+alias tom4RO 74
+}
+}
+}
+instbox 7 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Tom5"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+"X-Cowbell" "X-Cowbell" 0 34
+"X-WoodBlocks" "X-Woodlock" 0 35
+"X-Timbale1" "X-Timbales" 0 36
+"X-PercS-11" "X-One Shot OH1" 1 38
+}
+micmap {
+nrmaster 40
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Tom5" 4 4 4
+}
+drum -  "Drumsticks" 1
+pads {
+pad tom5MT {
+usemic "SnareBottom" "SnareBottomR" "Tom5" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+}
+pad tom5RO {
+usemic "SnareBottom" "SnareBottomR" "Tom5" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad tom5FX {
+usemic "SnareBottom" "SnareBottomR" "Tom5" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+pad tom5R {
+usemic "SnareBottom" "SnareBottomR" "Tom5" "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 0.398107
+maxpoly 8
+}
+alias tom5R 41
+alias tom5FX 73
+alias tom5RO 72
+}
+}
+}
+instbox 8 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Cymbal1"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+"X-Cowbell" "X-Cowbell" 0 34
+"X-WoodBlocks" "X-Woodlock" 0 35
+"X-Timbale1" "X-Timbales" 0 36
+"X-PercS-11" "X-One Shot OH1" 1 38
+}
+micmap {
+nrmaster 40
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Cymbal1" 2 3 4 {
+"crash1TL" 4 4 4
+}
+}
+drum -  "Drumsticks" 1
+pads {
+pad crash1FX {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+}
+pad crash1CS {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+}
+pad crash1BT {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash1BL {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash1RD {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash1RT {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash1M {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+ cycle NOT S 
+cycle NOT H 
+maxpoly 8
+aftertouchrelay
+}
+pad crash1 {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash1TL {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+alias crash1 86
+alias crash1M 83
+alias crash1RT 84
+alias crash1RD 87
+alias crash1BL 85
+alias crash1BT 88
+}
+}
+}
+instbox 9 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Cymbal2"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+"X-Cowbell" "X-Cowbell" 0 34
+"X-WoodBlocks" "X-Woodlock" 0 35
+"X-Timbale1" "X-Timbales" 0 36
+"X-PercS-11" "X-One Shot OH1" 1 38
+}
+micmap {
+nrmaster 40
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Cymbal2" 2 3 4 {
+"crash2TL" 4 4 4
+}
+}
+drum "cymbal1_3"  "Drumsticks" 1
+pads {
+pad crash2FX {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+}
+pad crash2CS {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+}
+pad crash2BT {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash2BL {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash2RD {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash2RT {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash2 {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash2M {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+ cycle NOT S 
+cycle NOT H 
+maxpoly 8
+aftertouchrelay
+}
+pad crash2TL {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+alias crash2M 50 94
+alias crash2 49 91
+alias crash2RT 27
+alias crash2RD 92
+alias crash2BL 28 90
+alias crash2BT 93
+}
+}
+}
+instbox 10 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Cymbal3"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+"X-Cowbell" "X-Cowbell" 0 34
+"X-WoodBlocks" "X-Woodlock" 0 35
+"X-Timbale1" "X-Timbales" 0 36
+"X-PercS-11" "X-One Shot OH1" 1 38
+}
+micmap {
+nrmaster 40
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Cymbal3" 2 3 4 {
+"crash3TL" 4 4 4
+}
+}
+drum -  "Drumsticks" 1
+pads {
+pad crash3FX {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+}
+pad crash3CS {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+}
+pad crash3BT {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash3BL {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash3RD {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash3RT {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash3 {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash3M {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+ cycle NOT S 
+cycle NOT H 
+maxpoly 8
+aftertouchrelay
+}
+pad crash3TL {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+alias crash3M 56 95
+alias crash3 55 98
+alias crash3RT 96
+alias crash3RD 99
+alias crash3BL 97
+alias crash3BT 100
+}
+}
+}
+instbox 11 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Cymbal4"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+"X-Cowbell" "X-Cowbell" 0 34
+"X-WoodBlocks" "X-Woodlock" 0 35
+"X-Timbale1" "X-Timbales" 0 36
+"X-PercS-11" "X-One Shot OH1" 1 38
+}
+micmap {
+nrmaster 40
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Cymbal4" 2 3 4 {
+"crash4TL" 4 4 4
+}
+}
+drum "cymbal1_4"  "Drumsticks" 1
+pads {
+pad crash4FX {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+}
+pad crash4CS {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+}
+pad crash4BT {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash4BL {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash4RD {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash4RT {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash4 {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash4M {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+ cycle NOT S 
+cycle NOT H 
+maxpoly 8
+aftertouchrelay
+}
+pad crash4TL {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+alias crash4M 118
+alias crash4 59 115
+alias crash4RT 51 113
+alias crash4RD 29
+alias crash4BL 53 114
+alias crash4BT 30
+}
+}
+}
+instbox 12 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Cymbal5"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+"X-Cowbell" "X-Cowbell" 0 34
+"X-WoodBlocks" "X-Woodlock" 0 35
+"X-Timbale1" "X-Timbales" 0 36
+"X-PercS-11" "X-One Shot OH1" 1 38
+}
+micmap {
+nrmaster 40
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Cymbal5" 2 3 4 {
+"crash5TL" 4 4 4
+}
+}
+drum "cymbal1_5"  "Drumsticks" 1
+pads {
+pad crash5FX {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+}
+pad crash5CS {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+}
+pad crash5BT {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash5BL {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash5RD {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash5RT {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash5 {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash5M {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+ cycle NOT S 
+cycle NOT H 
+maxpoly 8
+aftertouchrelay
+}
+pad crash5TL {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+alias crash5M 58 106
+alias crash5 57 103
+alias crash5RT 31 101
+alias crash5RD 104
+alias crash5BL 32 102
+alias crash5BT 105
+}
+}
+}
+instbox 13 {
+xpad 0 SL-SUPERIOR_DRUMMER_3 {
+pos "Cymbal6"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+"X-Cowbell" "X-Cowbell" 0 34
+"X-WoodBlocks" "X-Woodlock" 0 35
+"X-Timbale1" "X-Timbales" 0 36
+"X-PercS-11" "X-One Shot OH1" 1 38
+}
+micmap {
+nrmaster 40
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 5
+"Tom1" "Racktom 1" 0 6
+"Tom2" "Racktom 2" 0 7
+"Tom3" "Racktom 3" 0 8
+"Tom4" "Floortom 1" 0 9
+"Tom5" "Floortom 2" 0 10
+"Oh-Beyer" "OH Dyn" 1 11
+"Oh-Sanken" "OH Cond" 1 12
+"Ambience-R88" "Amb Ribbon" 1 13
+"AmbNear" "Amb Near" 1 14
+"AmbMid" "Amb Mid" 1 15
+"Front" "Front L/R" 1 16
+"Front-C" "Center" 0 17
+"Rear" "Surround L/R" 1 18
+"FrontHeight" "Front Height" 1 19
+"RearHeight" "Rear Height" 1 20
+"RearHeightAlt" "Rear Ht Wide" 1 21
+}
+laylims {
+"Cymbal6" 2 3 4 {
+"crash6TL" 4 4 4
+}
+}
+drum -  "Drumsticks" 1
+pads {
+pad crash6FX {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+}
+pad crash6CS {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+}
+pad crash6BT {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash6BL {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash6RD {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash6RT {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+blocksounds
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash6 {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+autoattackctrl 1
+maxpoly 8
+fadestart 0
+blocknoteoff 1
+fadetime 0.35
+aftertouchrelay
+}
+pad crash6M {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+ cycle NOT S 
+cycle NOT H 
+maxpoly 8
+aftertouchrelay
+}
+pad crash6TL {
+usemic "Oh-Beyer" "Oh-BeyerR" "Ambience-R88" "Ambience-R88R"
+velocityknee L 5
+cycle S 
+velvol
+maxpoly 8
+}
+alias crash6M 54 107
+alias crash6 52 110
+alias crash6RT 108
+alias crash6RD 111
+alias crash6BL 109
+alias crash6BT 112
+}
+}
+}
+instbox 14 {
+xpad 0 EZX_Percussion {
+pos "Cowbell"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+"X-Cowbell" "X-Cowbell" 0 34
+"X-WoodBlocks" "X-Woodlock" 0 35
+"X-Timbale1" "X-Timbales" 0 36
+"X-PercS-11" "X-One Shot OH1" 1 38
+}
+micmap {
+nrmaster 40
+close  0 0 0
+"Shaker2" "Shakers 1" 0 -1
+"Shaker1" "Shakers 2" 0 -1
+"Tambourine" "Tamb" 0 -1
+"Guiro" "Guiro" 0 -1
+"Triangle" "Triangle" 0 -1
+"WoodBlocks" "Woodlock" 0 -1
+"Cowbell" "Cowbell" 0 22
+"FX" "FX" 0 -1
+"Bongo1" "Bongos" 0 -1
+"Bongo2" "Bongo2" 0 -1
+"Conga1" "Congas" 0 -1
+"Conga2" "Conga2" 0 -1
+"Timbale1" "Timbales" 0 -1
+"Timbale2" "Timbale2" 0 -1
+"UduCajun" "Udu/Cajon" 0 -1
+"UduCajunBas" "Cajon Bass" 0 -1
+"Ambience" "Amb" 1 13
+}
+laylims {
+}
+drum "Small"  "Pure Hands" -1
+pads {
+pad CowbellFH {
+usemic "Cowbell" "Ambience" "AmbienceR"
+cycle S 
+velvol
+maxpoly 4
+}
+alias CowbellFH 76
+}
+}
+}
+instbox 15 {
+xpad 0 EZX_Percussion {
+pos "Woodblocks"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+"X-Cowbell" "X-Cowbell" 0 34
+"X-WoodBlocks" "X-Woodlock" 0 35
+"X-Timbale1" "X-Timbales" 0 36
+"X-PercS-11" "X-One Shot OH1" 1 38
+}
+micmap {
+nrmaster 40
+close  0 0 0
+"Shaker2" "Shakers 1" 0 -1
+"Shaker1" "Shakers 2" 0 -1
+"Tambourine" "Tamb" 0 -1
+"Guiro" "Guiro" 0 -1
+"Triangle" "Triangle" 0 -1
+"WoodBlocks" "Woodlock" 0 23
+"Cowbell" "Cowbell" 0 22
+"FX" "FX" 0 -1
+"Bongo1" "Bongos" 0 -1
+"Bongo2" "Bongo2" 0 -1
+"Conga1" "Congas" 0 -1
+"Conga2" "Conga2" 0 -1
+"Timbale1" "Timbales" 0 -1
+"Timbale2" "Timbale2" 0 -1
+"UduCajun" "Udu/Cajon" 0 -1
+"UduCajunBas" "Cajon Bass" 0 -1
+"Ambience" "Amb" 1 13
+}
+laylims {
+}
+drum "Agogo"  "Pure Hands" -1
+pads {
+pad Wood3 {
+usemic "WoodBlocks" "Ambience" "AmbienceR"
+cycle S 
+velvol
+maxpoly 4
+}
+pad Wood2 {
+usemic "WoodBlocks" "Ambience" "AmbienceR"
+cycle S 
+velvol
+maxpoly 4
+}
+pad Wood1 {
+usemic "WoodBlocks" "Ambience" "AmbienceR"
+cycle S 
+velvol
+maxpoly 4
+}
+alias Wood1 34
+alias Wood2 1
+alias Wood3 89
+}
+}
+}
+instbox 16 {
+xpad 0 EZX_Percussion {
+pos "Timbale High"
+mastermics {
+nrmaster 0
+close  0 0 0
+"Kick-In" "Kick In" 0 0
+"Kick-Out" "Kick Out" 0 1
+"Kick-Sub" "Kick Sub" 0 2
+"SnareTop" "Snare Top" 0 3
+"SnareBottom" "Snare Bottom" 1 4
+"Hats" "Hi-Hat" 0 6
+"Tom1" "Racktom 1" 0 7
+"Tom2" "Racktom 2" 0 8
+"Tom3" "Racktom 3" 0 9
+"Tom4" "Floortom 1" 0 10
+"Tom5" "Floortom 2" 0 11
+"Oh-Beyer" "OH Dyn" 1 12
+"Oh-Sanken" "OH Cond" 1 14
+"Ambience-R88" "Amb Ribbon" 1 16
+"AmbNear" "Amb Near" 1 18
+"AmbMid" "Amb Mid" 1 20
+"Front" "Front L/R" 1 22
+"Front-C" "Center" 0 24
+"Rear" "Surround L/R" 1 26
+"FrontHeight" "Front Height" 1 28
+"RearHeight" "Rear Height" 1 30
+"RearHeightAlt" "Rear Ht Wide" 1 32
+"X-Cowbell" "X-Cowbell" 0 34
+"X-WoodBlocks" "X-Woodlock" 0 35
+"X-Timbale1" "X-Timbales" 0 36
+"X-PercS-11" "X-One Shot OH1" 1 38
+}
+micmap {
+nrmaster 40
+close  0 0 0
+"Shaker2" "Shakers 1" 0 -1
+"Shaker1" "Shakers 2" 0 -1
+"Tambourine" "Tamb" 0 -1
+"Guiro" "Guiro" 0 -1
+"Triangle" "Triangle" 0 -1
+"WoodBlocks" "Woodlock" 0 23
+"Cowbell" "Cowbell" 0 22
+"FX" "FX" 0 -1
+"Bongo1" "Bongos" 0 -1
+"Bongo2" "Bongo2" 0 -1
+"Conga1" "Congas" 0 -1
+"Conga2" "Conga2" 0 -1
+"Timbale1" "Timbales" 0 24
+"Timbale2" "Timbale2" 0 -1
+"UduCajun" "Udu/Cajon" 0 -1
+"UduCajunBas" "Cajon Bass" 0 -1
+"Ambience" "Amb" 1 13
+}
+laylims {
+}
+drum "High"  "Pure Hands" -1
+pads {
+pad TimbHighRF {
+usemic "Timbale1" "Timbale2" "Ambience" "AmbienceR"
+cycle S 
+velvol
+maxpoly 4
+}
+pad TimbHighFL {
+usemic "Timbale1" "Timbale2" "Ambience" "AmbienceR"
+cycle S 
+velvol
+maxpoly 4
+}
+pad TimbHighSS {
+usemic "Timbale1" "Timbale2" "Ambience" "AmbienceR"
+cycle S 
+velvol
+maxpoly 4
+}
+pad TimbHighRS {
+usemic "Timbale1" "Timbale2" "Ambience" "AmbienceR"
+cycle S 
+velvol
+maxpoly 4
+}
+pad TimbHighOTL {
+usemic "Timbale1" "Timbale2" "Ambience" "AmbienceR"
+cycle S 
+velvol
+maxpoly 4
+}
+pad TimbHighOTR {
+usemic "Timbale1" "Timbale2" "Ambience" "AmbienceR"
+cycle S 
+velvol
+maxpoly 4
+}
+alias TimbHighOTR 19
+alias TimbHighOTL 11
+alias TimbHighRS 18
+alias TimbHighSS 46
+alias TimbHighFL 117
+alias TimbHighRF 116
+}
+}
+}
+mixer {
+latcomp
+Kick-In {
+pan 0.5
+volume 0.64088
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Kick-Out {
+pan 0.5
+volume 0.457377
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Kick-Sub {
+pan 0.5
+volume 0.334301
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+SnareTop {
+pan 0.5
+volume 0.899839
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+SnareBottom {
+pan 0
+volume 0.459271
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+SnareBottomR {
+pan 1
+volume 0.459271
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Hats {
+pan 0.26087
+volume 0.48939
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Tom1 {
+pan 0
+volume 0.319806
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Tom2 {
+pan 0.361111
+volume 0.427335
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Tom3 {
+pan 0.527778
+volume 0.427335
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Tom4 {
+pan 0.652174
+volume 0.555684
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Tom5 {
+pan 0.833333
+volume 0.427335
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Oh-Beyer {
+pan 0
+volume 1.54464
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Oh-BeyerR {
+pan 1
+volume 1.54464
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Oh-Sanken {
+pan 0
+volume 1.20226
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Oh-SankenR {
+pan 1
+volume 1.20226
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Ambience-R88 {
+pan 0
+volume 0.334301
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Ambience-R88R {
+pan 1
+volume 0.334301
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+AmbNear {
+pan 0
+volume 0.776247
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+AmbNearR {
+pan 1
+volume 0.776247
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+AmbMid {
+pan 0
+volume 0.776247
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+AmbMidR {
+pan 1
+volume 0.776247
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Front {
+pan 0
+volume 0.489779
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+FrontR {
+pan 1
+volume 0.489779
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Front-C {
+pan 0.5
+volume 0.489779
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+Rear {
+pan 0
+volume 0.30903
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+RearR {
+pan 1
+volume 0.30903
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+FrontHeight {
+pan 0
+volume 0.266073
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+FrontHeightR {
+pan 1
+volume 0.266073
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+RearHeight {
+pan 0
+volume 0.229087
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+RearHeightR {
+pan 1
+volume 0.229087
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+RearHeightAlt {
+pan 0
+volume 0.229087
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+RearHeightAltR {
+pan 1
+volume 0.229087
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+X-Cowbell {
+pan 0.6
+volume 0.2
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+X-WoodBlocks {
+pan 0.1
+volume 0.6
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+X-Timbale1 {
+pan 0.8
+volume 0.6
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+X-PercS-11 {
+pan 0
+volume 1
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+X-PercS-1R1 {
+pan 1
+volume 1
+phasereverse 0
+nobleed 0
+xtrafade 0
+leakvol 1
+solo 0
+mute 0
+route 0
+}
+buss 0 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 1 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 2 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 3 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 4 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 5 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 6 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 7 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 8 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 9 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 10 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 11 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 12 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 13 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 14 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 15 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 16 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 17 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 18 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 19 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 20 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 21 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 22 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 23 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 24 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 25 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 26 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 27 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 28 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 29 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+buss 30 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+route -1
+}
+buss 31 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+route -1
+}
+output 0 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 1 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 2 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 3 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 4 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 5 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 6 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 7 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 8 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 9 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 10 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 11 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 12 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 13 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 14 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 15 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 16 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 17 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 18 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 19 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 20 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 21 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 22 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 23 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 24 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 25 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 26 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 27 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 28 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 29 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+output 30 {
+pan 0
+volume 1
+phasereverse 0
+solo 0
+mute 0
+hidden
+}
+output 31 {
+pan 1
+volume 1
+phasereverse 0
+solo 0
+mute 0
+}
+}
+macros {
+}
+midilearn {
+}
+}
+ClearTracksFirst
+SongTrack 0 {
+Minimized 0
+VisibleArea 0 127.401
+Zoom 9.99996
+ClearTrackFirst
+TrackLength 800
+Tempo 141 0 0
+TimeSig 4 4 0
+TrackName "Track 1"
+MutedCCs 
+GridRes 32
+LoopArea 0 32
+LoopActive 1
+StartNumber 1
+MidiLoop 0 {
+Name "Intro 01"
+RealEndTime 32
+StartTime 0
+EndTime 32
+Offset 0
+ResizeEnd 32
+tapQuantize 0
+Velocity 0
+ClearNotes
+TimeSig 4 4
+Events 7864720 0 8342672 0 19584 0.05 384 0.25 7078288 1 6179984 1 19584 1.05 384 1.25 7078288 1.5 6179984 1.5 19584 1.55 384 1.75 7864720 2 7490704 2 19584 2.05 384 2.25 7078288 3 6311056 3 19584 3.05 384 3.25 7078288 3.5 5590160 3.5 19584 3.55 384 3.75 7864720 4 8342672 4 19584 4.05 384 4.25 7078288 5 
+Events 6179984 5 19584 5.05 384 5.25 7078288 5.5 6179984 5.5 19584 5.55 384 5.75 7864720 6.5 7228560 6.5 19584 6.55 384 6.75 7078288 7 6311056 7 19584 7.05 384 7.25 7078288 7.5 5590160 7.5 19584 7.55 384 7.75 7864720 8 8342672 8 19584 8.05 384 8.25 7078288 9 6179984 9 19584 9.05 384 9.25 7078288 9.5 6179984 9.5 19584 9.55 
+Events 384 9.75 7864720 10 7490704 10 19584 10.05 384 10.25 7078288 11 6311056 11 19584 11.05 384 11.25 7078288 11.5 5590160 11.5 19584 11.55 384 11.75 7864720 12 8335248 12 8342672 12 12160 12.05 19584 12.05 384 12.25 6565776 12.5 12160 12.55 6172560 12.6667 12160 12.7167 6172560 12.8333 12160 12.8833 7078288 13 6893456 13 6179984 13 12160 13.05 19584 13.05 
+Events 5975952 13.1667 12160 13.2167 384 13.25 5910416 13.3333 12160 13.3833 7078288 13.5 7024528 13.5 6179984 13.5 12160 13.55 19584 13.55 6172560 13.6667 12160 13.7167 384 13.75 6238096 13.8333 12160 13.8833 7864720 14 7090064 14 7490704 14 12160 14.05 19584 14.05 6369168 14.1667 12160 14.2167 384 14.25 6369168 14.3333 12160 14.3833 7286672 14.5 12160 14.55 6565776 14.6667 12160 14.7167 6565776 14.8333 
+Events 12160 14.8833 7078288 15 6311056 15 8335248 15 19584 15.05 12160 15.05 384 15.25 7078288 15.5 7211920 15.5 5590160 15.5 2944 15.55 19584 15.55 384 15.75 7864720 16 7211920 16 7280272 16 8332432 16 6565776 16 8342672 16 2944 16.05 9344 16.05 12160 16.05 19584 16.05 384 16.25 5760 16.25 7542416 16.5 5760 16.75 7078288 17 7345808 17 8332944 17 
+Events 6179984 17 9856 17.05 19584 17.05 384 17.25 5760 17.25 7078288 17.5 6362768 17.5 6179984 17.5 19584 17.55 384 17.75 5760 17.75 7864720 18 8328848 18 7490704 18 19584 18.05 384 18.25 5760 18.25 7935632 18.5 5760 18.75 7078288 19 7673488 19 8332944 19 6311056 19 9856 19.05 19584 19.05 384 19.25 5760 19.25 7078288 19.5 6362768 19.5 8332432 19.5 
+Events 5590160 19.5 9344 19.55 19584 19.55 384 19.75 5760 19.75 7864720 20 8342672 20 8328848 20 8332432 20 9344 20.05 19584 20.05 384 20.25 5760 20.25 8263312 20.5 5760 20.75 7078288 21 7476880 21 8332944 21 6179984 21 9856 21.05 19584 21.05 384 21.25 5760 21.25 7078288 21.5 8332432 21.5 8328848 21.5 6179984 21.5 9344 21.55 19584 21.55 384 21.75 
+Events 5760 21.75 7864720 22 7345808 22 7490704 22 19584 22.05 384 22.25 5760 22.25 8132240 22.5 8332432 22.5 9344 22.55 5760 22.75 7078288 23 6428304 23 8332944 23 6311056 23 9856 23.05 19584 23.05 384 23.25 5760 23.25 7078288 23.5 5590160 23.5 7018128 23.5 8332432 23.5 9344 23.55 19584 23.55 384 23.75 5760 23.75 7864720 24 8328848 24 8332432 24 
+Events 8342672 24 9344 24.05 19584 24.05 384 24.25 5760 24.25 7476880 24.5 5760 24.75 7078288 25 7804560 25 8332944 25 6179984 25 9856 25.05 19584 25.05 384 25.25 5760 25.25 7078288 25.5 7411344 25.5 6179984 25.5 19584 25.55 384 25.75 5760 25.75 8328848 26 5760 26.25 7864720 26.5 8328848 26.5 5590160 26.5 19584 26.55 384 26.75 5760 26.75 7804560 27 
+Events 8332944 27 9856 27.05 5760 27.25 7078288 27.5 6821520 27.5 8332432 27.5 5590160 27.5 9344 27.55 19584 27.55 384 27.75 5760 27.75 7280272 28 8332432 28 9344 28.05 5760 28.25 7864720 28.5 7280272 28.5 5590160 28.5 19584 28.55 384 28.75 5760 28.75 7078288 29 5969552 29 8332944 29 6179984 29 9856 29.05 19584 29.05 384 29.25 5760 29.25 7078288 29.5 
+Events 7149200 29.5 6179984 29.5 19584 29.55 384 29.75 5760 29.75 7864720 30 8328848 30 7490704 30 19584 30.05 384 30.25 5760 30.25 7083664 30.5 8332432 30.5 9344 30.55 5760 30.75 7078288 31 8328848 31 8332944 31 6311056 31 9856 31.05 19584 31.05 384 31.25 5760 31.25 7078288 31.5 7211920 31.5 6755984 31.5 8332432 31.5 5590160 31.5 2944 31.55 9344 31.55 
+Events 19584 31.55 384 31.75 5760 31.75 
+Type 0
+Mute 0
+InstIntensity "Kick" 0.5
+InstIntensity "Snare" 0.5
+InstIntensity "Hi-Hat" 0.5
+InstIntensity "Racktom 1" 0.5
+InstIntensity "Racktom 2" 0.5
+InstIntensity "Racktom 3" 0.5
+InstIntensity "Floortom 1" 0.5
+InstIntensity "Floortom 2" 0.5
+InstIntensity "Cymbal 1" 0.5
+InstIntensity "Cymbal 2" 0.5
+InstIntensity "Cymbal 3" 0.5
+InstIntensity "Ride" 0.5
+InstIntensity "Cymbal 4" 0.5
+InstIntensity "Cymbal 5" 0.5
+InstIntensity "Instrument 1" 0.5
+InstIntensity "Instrument 2" 0.5
+InstIntensity "Instrument 3" 0.5
+InstrumentVelocity "Kick" 1
+InstrumentVelocity "Snare" 1
+InstrumentVelocity "Hi-Hat" 1
+InstrumentVelocity "Racktom 1" 1
+InstrumentVelocity "Racktom 2" 1
+InstrumentVelocity "Racktom 3" 1
+InstrumentVelocity "Floortom 1" 1
+InstrumentVelocity "Floortom 2" 1
+InstrumentVelocity "Cymbal 1" 1
+InstrumentVelocity "Cymbal 2" 1
+InstrumentVelocity "Cymbal 3" 1
+InstrumentVelocity "Ride" 1
+InstrumentVelocity "Cymbal 4" 1
+InstrumentVelocity "Cymbal 5" 1
+InstrumentVelocity "Instrument 1" 1
+InstrumentVelocity "Instrument 2" 1
+InstrumentVelocity "Instrument 3" 1
+KitPieceTransform " " 76 76 "Instrument 1" "Instrument 1" 0 14 0 1 0 0
+AccentsOn 0
+BrowserPathParts "_EZD2MIDI_000011@SUPERIOR_DRUMMER_3" "405@STRAIGHT_4#4" "102-S101@INTRO" "Variation_01.mid"
+FavoritePathParts
+FileName "_EZD2MIDI_000011@SUPERIOR_DRUMMER_3/405@STRAIGHT_4#4/102-S101@INTRO/Variation_01.mid"
+Selected 1
+}
+}
+SetCurrentSongTrack 0
+editorVars {
+selectedTab 1
+selectedPosIx 7
+selectedArticulationIx -1
+PianoRollVisible 0
+MacroControlsVisible 0
+MixerPropsVisible 1
+SongCreatorIsVisible 0
+MidiEditSnapMode 0
+MidiEditSnapOn 1
+MidiEditSnapValue 24
+MidiEditResolutionValue 6
+MidiEditAutoScroll 1
+MidiEditPreview 1
+MidiEditNotesWithLength "1"
+SongTrackHeight 158
+DrumsMixerPresetName "Default"
+ChosenPresetTypeName s3presets
+ChosenKitPresetName ""
+ChosenMixerPresetName "Default"
+PresetAltered
+BounceCycle 0
+BounceBits 1
+BounceSeparate 0
+BounceAll 1
+BounceAllNoSilent 1
+BounceMixer 1
+BounceVol 0
+ShowHiddenMixerChannels 0
+ShowKeys 0
+}
+mixerState {
+currentInstrBoxIx 7
+currentPadIx -1
+micAssignmentVisible 0
+channelsVisible 1
+userChannelsVisible 1
+busesVisible 1
+outputsVisible 1
+}
+sqlMidiProvider {
+VisibleResultColumns 7;0,145,0,0;11,155,0,0;4,110,0,0;6,100,0,0;7,45,0,0;8,46,0,0;3,55,0,0
+VisibleFilterColumns 5,2,4,5,7,3
+BrowserHeight 208
+PartsVisible 1
+SelectedFile 596
+searchedWordIDs ""
+searchedWords ""
+ClearTap2Find
+BrowserIsFavorite 0
+SortByPrio 1
+SortByTempo 1
+SortByTSig 1
+SelectedTags ",Funk,Genre,None"
+ExcludedTags ""
+SelectedPaths ""
+ExcludedPaths ""
+}
+sqlSoundProvider {
+VisibleResultColumns 7;0,210,0,0;21,120,1,0;26,100,0,0;18,95,0,0;1,100,0,0;15,80,0,0;19,65,0,0
+VisibleFilterColumns 6,1,5,9,10,11,12
+BrowserHeight 208
+}
+BoxStatePreset "Default Box View" 0 {
+Box VolumeBoxId 1 57 1
+Box PitchBoxId 1 89 1
+Box ReverseBoxId 0 51 1
+Box ADSRBoxId 0 226 1
+Box PitchEnvelopeBoxId 0 174 1
+Box VelocityBoxId 0 225 1
+Box VelRangeBoxId 0 90 1
+Box SoftHitBoxId 0 51 1
+Box MappingBoxId 1 160 1
+Box MonitorBoxId 0 160 1
+Box LayerBoxId 0 145 1
+Box HumanizeBoxId 0 112 1
+Box HihatBoxId 0 250 0
+Box MHEBoxId 0 83 0
+Box MuteTailBoxId 0 145 0
+}
+Drumtracker {
+clearAll
+outChannel 0
+useLatency 1
+usingRegions 1
+snapMode 0
+synchTimebars 1
+playspeed 1
+trackheight 168
+loopstart -1
+loopend -1
+loopactive 0
+ClearTempoNodes
+TempoNode 120 0
+ClearTimeSigns
+TimeSignNode 4 4 0
+tempoMap 222
+163.77CdswFH1Ulbyk1at0iHw3BLh.RYtM1ajklam0iHUQkQsfiH+3SCJzfB7PWYsA2aMEFbfzVX3IDbs0iHz.CLh.xX0Imbk4FcBAWa8HxLvHBHy8VctQFSk4VOh.iHfHFbsMTXtQVZjEFckM2TooWY8HBLh3SCJ.BH7HTXxkjal8FHzkVak0iHvHBHhAWa8HxLvHxK9zfB77Bck0Fbu0TXv4SCJ.
+Track 0 {
+trackstuff -2 896
+669.zIWXis1TzUmYlAP.CHUYyUFc.DPAAD....fa001StMWYzMG.ATP......HUYyUFcRU1Yo8layAP.EDP.....AHvQk4VYxEFaSQWclYF.APwXu0lXo4VYjYUXrUWY.DPBD.........9Oo41bzIWcsUlazAkbkMVZyk1atQUdvUF.ATP......zVcrQWZIgG.ATP.......mbkYWZkcmSuQWY.DPAAPB...PcyUVPTAP.AHPa0QWY.DP.CL2ar8F.ADv.gwFaucWPxQWZiUGagQWZu41b.DP.BT2bkAkbuoVYiQmQowVY.DP.B.mbuoVYiQmQowVYPEFcnAP.BT..zIWXislSg0VY.DPBEPkbgM1ZfDC.zglbkMGSkYWYrAP.IP.....vLyL0+L2XgwVYFE1Xz8lb.DPBD.........+OlklajMUZskFagIGUnIWYyAP.IP.........3+.mbkYWZkc2Prk1XqAP.ALvXrk1XqQWdvUF.ATP......HFak4FYlE1Xz8lb.DPBD.........9OsUGazkFUnIWYyMUZ5UF.ATP.F....zVcrQWZTglbkMG.AjAB................................hwVYkQFUxE1XqMUZ5UF.ATP.......fbkcVZu4F.AfPXs8VctQGUnIWYyAP.IP.....vLyL0+vVZtUFUnIWYyAP.IP.....3bN1m+HFakUFYTglbkMG.Aj.A..........fag0VY.DfBEHUYmk1atABL.fWL.DPBD...........3IC.Aj.A..........Pa0wFcoQEZxU1bSkldkAP.EDfA....sUGazkFUnIWYyAP.Yf..................................
+}
+}
+SongCreator {
+ClearSuggestions
+}
+SyncToHost 0 0
+MidiInChannel -1
+STMetronomeOn 0
+EdrumPreset 0 "empty_id" {
+Trafo 129 {
+curve {
+linear 1
+0 0 0
+1 0.06299212574958801 0.06299212574958801
+2 0.2362204790115356 0.2362204790115356
+3 0.4724409580230713 0.4724409580230713
+4 0.7086614370346069 0.7086614370346069
+5 0.8267716765403748 0.8267716765403748
+6 0.9448819160461426 0.9448819160461426
+7 0.9921259880065918 0.9921259880065918
+8 1 1
+}
+}
+Trafo 132 {
+curve {
+linear 1
+0 0 0
+1 0.06299212574958801 0.06299212574958801
+2 0.2362204790115356 0.2362204790115356
+3 0.4724409580230713 0.4724409580230713
+4 0.7086614370346069 0.7086614370346069
+5 0.8267716765403748 0.8267716765403748
+6 0.9448819160461426 0.9448819160461426
+7 0.9921259880065918 0.9921259880065918
+8 1 1
+}
+}
+Trafo 144 {
+curve {
+linear 1
+0 0 0
+1 0.2362204790115356 0.2362204790115356
+2 0.9055117964744568 0.9055117964744568
+3 1 1
+}
+}
+StoredTrafo 144 {
+lo 0 20
+}
+StoredTrafo 129 {
+lo 0 20
+}
+StoredTrafo 132 {
+lo 0 20
+}
+}
+MetronomeSettings {
+MetronomeOutChannel 0
+MetronomeNotes 0
+MetronomeOnBeatSound 0
+MetronomeOffBeatSound 1
+MetronomeOnBeatVolume 1
+MetronomeOffBeatVolume 1
+}
+ 
