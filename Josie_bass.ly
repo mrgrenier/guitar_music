@@ -71,8 +71,14 @@ altoSax = {
 
 % ------ Guitar 1 ------
 gtr_intro = { 
-  e,8 d'8~ d8 <fs,\4 cs'\3>8~ <fs\4 cs'\3>4~ <fs\4 cs'\3>8 <ef\4 bf'\3>8~ |
+  e,8\4 d'8\2~ d8\2 <fs,\4 cs'\3>8~ <fs\4 cs'\3>4~ <fs\4 cs'\3>8 <ef\4 bf'\3>8~ |
   <ef\4 bf'\3>8 <e\4 b'\3>8~ <e\4 b'\3>2~ <e\4 b'\3>8 r8 |
+   e8\4 d'8\2~ d8\2 <fs,\4 cs'\3>8~ <fs\4 cs'\3>4~ <fs\4 cs'\3>8 <ef\4 bf'\3>8~ |
+ <ef\4 bf'\3>4. <b\5 fs'\4>8~ <b\5 fs'\4>8 <d\5 a'\4>8~ <d\5 a'\4>8 r8 |
+\tuplet 3/2 {e4\5 a4\4 gs\4 } \tuplet 3/2 {g4\4 fs4\4 b4\3 } | 
+<f\4 c'\3 e\2>2 <bf e a>2 | 
+ \set TabStaff.minimumFret = #5 <g\4 d' fs>4. <gs\4 d'\3 g\2>8~  <gs\4 d'\3 g\2>2 |    
+ 
 }
 
 gtr_verse_riff = {
@@ -96,6 +102,7 @@ gtr_verse_riff = {
 gtr = \relative c' {
   \Key
   \set TabStaff.minimumFret = #1
+ %\set TabStaff.restrainOpenStrings = ##t
   \clef moderntab
   \gtr_intro
   \gtr_verse_riff  
@@ -104,6 +111,8 @@ gtr = \relative c' {
 }
 gtrHarmony = \chordmode {
   \jazzChords
+  s1 s1 s1 s1 s1 |
+  s1 s1
   e1:min7 e:min7 a:7 a:7
   e1:min7 e:min7 a:7 a:7
 }
@@ -219,7 +228,7 @@ drumContents = {
       \new ChordNames = "chords" \gtrHarmony
       \new TabStaff = "guitar"  \with { 
 	     instrumentName = #"Guitar" 
-	     %stringTunings = \stringTuning <b,, e, a, d fs b>
+	    % stringTunings = \stringTuning <b,, e, a, d fs b>
 		 }
       \guitar
       \new PianoStaff = "piano" \with {
