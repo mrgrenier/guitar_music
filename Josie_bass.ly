@@ -77,8 +77,8 @@ gtr_intro = {
  <ef\4 bf'\3>4. <b\5 fs'\4>8~ <b\5 fs'\4>8 <d\5 a'\4>8~ <d\5 a'\4>8 r8 |
 \tuplet 3/2 {e4\5 a4\4 gs\4 } \tuplet 3/2 {g4\4 fs4\4 b4\3 } | 
 <f\4 c'\3 e\2>2 <bf e a>2 | 
- \set TabStaff.minimumFret = #5 <g\4 d' fs>4. <gs\4 d'\3 g\2>8~  <gs\4 d'\3 g\2>2 |    
- 
+ \set TabStaff.minimumFret = #5 <g\4 d' fs>4. <gs\4 c\3 g'\2>8~  <gs\4 c\3 g'\2>2 |    
+ \set TabStaff.minimumFret = #0
 }
 
 gtr_verse_riff = {
@@ -89,7 +89,7 @@ gtr_verse_riff = {
   e,4. r16 e b'8\6 d8\5 r8 e8\5 |  
   e,4. r16 e d'8\5 cs\5 r8 e,8 |
   d'8.\5 d16\5 cs8\5 c8( c4) r8 a8\6 |
-  g8.\6 g16\6 fs8\6 f8( f4) r4 |
+  g8.\6 g16\6 fs8\6 f8\6( f4\6) r4 |
   e4. r16 e b'8\6 d8\5 r8 e8\5 |  
   e,4. r16 e b'8\6 d8\5 r8 g,8\6 |  
   a4.\6 r16 a\6 e8\6 g8\6 r8 a8\6 |  
@@ -101,7 +101,7 @@ gtr_verse_riff = {
 
 gtr = \relative c' {
   \Key
-  \set TabStaff.minimumFret = #1
+  \set TabStaff.minimumFret = #0
  %\set TabStaff.restrainOpenStrings = ##t
   \clef moderntab
   \gtr_intro
