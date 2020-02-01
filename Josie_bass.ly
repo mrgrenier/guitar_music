@@ -107,7 +107,7 @@ gtr_solo = {
   r4 c''\startBend\2 d\stopBend d8\1 e\1 |
   \set TabStaff.minimumFret = #12
   fs4\1\startBend g8\stopBend fs8 e4 d8\2 e8~ |
-  e b\2 b4\2 r8 d4\2 d,8 |
+  e b\2~b4\2 r8 d4\2 d,8 |
   r4 cs'8\2 ds,8 r8 g8 r8 e8 ~ |
   e8 a8\3 <g' d>4 e4 d4 ~ |
   d4 e8 r8 d8  r8 r8 cs8 ~ |

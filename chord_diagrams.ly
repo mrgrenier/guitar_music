@@ -12,7 +12,14 @@
 \include "predefined-guitar-fretboards.ly"
 \layout { indent = 0.0\cm }
 \layout { \override Voice.StringNumber #'stencil = ##f }
-
+     \header {
+      piece =
+        \markup \rounded-box \fill-line {
+            \wordwrap-string
+              #"Ionian, Dorian, Phrygian, Lydian, Mixolydian, Aeolian and Locrian."
+              \null
+        }
+    }
 key_of_c = \chordmode {c d:m e:m f g a:m b:dim }
 key_of_df = \chordmode {df ef:m f:m gf af bf:m c:dim }
 key_of_d = \chordmode {d e:m fs:m g a b:m cs:dim }
@@ -26,7 +33,6 @@ key_of_a = \chordmode {a b:m cs:m d e fs:m gs:dim }
 key_of_bf = \chordmode {bf c:m d:m ef f g:m a:dim }
 key_of_b = \chordmode {b cs:m ds:m e fs gs:m as:dim }
 
-mode_ionian = ^\markup { Ionian }
 
 music = {
    \key_of_b
