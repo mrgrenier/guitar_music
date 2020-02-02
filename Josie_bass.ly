@@ -72,6 +72,7 @@ altoSax = {
 
 % ------ Guitar 1 ------
 gtr_intro = {
+  <>^"Intro"
   e,8\4 d'8\2~ d8\2 <fs,\4 cs'\3>8~ <fs\4 cs'\3>4~ <fs\4 cs'\3>8 <ef\4 bf'\3>8~ |
   <ef\4 bf'\3>8 <e\4 b'\3>8~ <e\4 b'\3>2~ <e\4 b'\3>8 r8 |
   e8\4 d'8\2~ d8\2 <fs,\4 cs'\3>8~ <fs\4 cs'\3>4~ <fs\4 cs'\3>8 <ef\4 bf'\3>8~ |
@@ -83,14 +84,15 @@ gtr_intro = {
 }
 
 gtr_verse_riff = {
+  <>^"Verse"
   e,4. r16 e b'8\6 d8\5 r8 e8\5 |
   e,4. r16 e d'8\5 cs\5 r8 e8\5 |
   e,8 d'\5 r8 cs\5 d\5 r8 e, e'8\5 |
   e,4. r16 e g8\6 d'8\5 a8\6 d8\5 |
   e,4. r16 e b'8\6 d8\5 r8 e8\5 |
   e,4. r16 e d'8\5 cs\5 r8 e,8 |
-  d'8.\5 d16\5 cs8\5 c8( c4) r8 a8\6 |
-  g8.\6 g16\6 fs8\6 f8\6( f4\6) r4 |
+  d'8.\5 d16\5 cs8\5 c8~ c4 r8 a8\6 |
+  g8.\6 g16\6 fs8\6 f8\6~ f4\6 r4 |
   e4. r16 e b'8\6 d8\5 r8 e8\5 |
   e,4. r16 e b'8\6 d8\5 r8 g,8\6 |
   a4.\6 r16 a\6 e8\6 g8\6 r8 a8\6 |
@@ -106,21 +108,35 @@ gtr_solo = {
   <>^"Solo"
   r4 c''\startBend\2 d\stopBend d8\1 e\1 |
   \set TabStaff.minimumFret = #12
-  fs4\1\startBend g8\stopBend fs8 e4 d8\2 e8~ |
-  e b\2~b4\2 r8 d4\2 d,8 |
-  r4 cs'8\2 ds,8 r8 g8 r8 e8 ~ |
-  e8 a8\3 <g' d>4 e4 d4 ~ |
+  \grace{ fs16\1\startBend } g16\1\stopBend\startBend fs16\stopBend\startBend g4\stopBend\startBend fs8\stopBend
+   e4 d8\2 e8~ |
+  e8 b\2 r4 r8 d8\2 d8\2 d,8 |
+  r4 cs'8\2 ds,8 r8 g8 r8 e8~ |
+  e8 a8\3 r4 e'8 r8 d4~ |
   d4 e8 r8 d8  r8 r8 cs8 ~ |
-  cs8 e8 a,8 cs8 b8 e,8 ~ e4 |
-
+  cs8 e8 a,8 cs8 b8 e,4.~ |
+  \tuplet 3/2 { e8 e8 g8} \tuplet 3/2 { a8\3 b8\2 c8} \tuplet 3/2 { r8 b8 c8} \grace {c8\startBend} d4\stopBend ~ |
+  d8\stopBend\startBend c8\startBend d2\stopBend r8 <cs g'>8 |
+  r4 r8 e8 ~ e4 e8 b8 |
+  d8\2 b8\3 d8.\2[ b16\3] ds8\startBend e4.\2\stopBend |
+  \grace{ b4\3\startBend} cs\3\stopBend a'8\1 r8 a,8\3 e'8\2 r8 \grace{ cs8\2\startBend } d8\stopBend 
+  fs4\1 e8\2 g8~g4 a8.\startBend b16~|b4\stopBend
+  r4 \grace{ a\1\startBend} b16\stopBend\startBend a8\stopBend g16 e4\2~ |e8\2
+  \grace{ fs16\1\startBend } g8\1\stopBend\startBend fs16\stopBend\startBend g16\stopBend\startBend fs8\stopBend e8\2( d\2) e8\2 e8\2 ~|
+  e4\2~ \tuplet 3/2 { e8\2 a,8 d8} g,2 | 
+  r8 b8 e,4 r2 |
+  
 }
 
 gtr = \relative c' {
   \Key
+  \override Beam.concaveness = #10000
+
   \set TabStaff.minimumFret = #0
   %\set TabStaff.restrainOpenStrings = ##t
   \clef moderntab
   \gtr_intro
+  \break
   \gtr_verse_riff
   \break
   \gtr_solo
@@ -131,8 +147,25 @@ gtrHarmony = \chordmode {
   \jazzChords
   s1 s1 s1 s1 s1 |
   s1 s1
-  e1:min7 e:min7 a:7 a:7
-  e1:min7 e:min7 a:7 a:7
+  \break
+  e1:min7 e:min7 e:min7 e:min7
+  e1:min7 e:min7 a4./d g2/c s8
+  d4./g c2/f s8 
+  e1:min7 e1:min7 a1:9
+  g4/c d4/g c2/f 
+  e1:min7 
+  d2/g e2/a
+  e1:min7
+  \break
+  s1
+  e1:min7 e:min7 e:min7 e:min7
+  e1:min7 e:min7 a4./d g2/c s8
+  d4./g c2/f s8 
+  e1:min7 e1:min7 a1:9
+  g4/c d4/g c2/f 
+  e1:min7 
+  d2/g e2/a
+  e1:min7
 }
 guitar = {
   \tabFullNotation
