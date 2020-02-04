@@ -125,7 +125,6 @@ gtr_solo = {
   \grace{ fs16\1\startBend } g8\1\stopBend\startBend fs16\stopBend\startBend g16\stopBend\startBend fs8\stopBend e8\2( d\2) e8\2 e8\2 ~|
   e4\2~ \tuplet 3/2 { e8\2 a,8 d8} g,2 | 
   r8 b8 e,4 r2 |
-  
 }
 
 gtr = \relative c' {
@@ -143,6 +142,7 @@ gtr = \relative c' {
 
 
 }
+
 gtrHarmony = \chordmode {
   \jazzChords
   s1 s1 s1 s1 s1 |
