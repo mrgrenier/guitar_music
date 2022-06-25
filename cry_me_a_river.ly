@@ -5,7 +5,7 @@
 \include "english.ly"
 \include "articulate.ly"
 \header {
-  title = "Cry Me A River"
+  title = "Cry me a River"
   subtitle = "A Major"
   arranger = ""
   composer = ""
