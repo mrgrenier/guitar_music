@@ -1,9 +1,9 @@
 \version "2.18.2"
 \header {
-  title = "Criminal"
-  subtitle = "Key Cm"
+  title = "Tainted Love"
+  subtitle = "A Major Blues"
   arranger = ""
-  composer = "Fiona Apple"
+  composer = "Imelda May"
   tagline = \markup {
     \column {
       "Parts"
@@ -44,7 +44,8 @@ jazzChords = { }
 global = {
   \numericTimeSignature
   \time 4/4
-  \tempo 4 = 90
+ % \tempo 4 = 170
+  \tempo 4 = 85
 }
 
 Key = { \key g \major }
@@ -110,8 +111,25 @@ gtr_verse_riff = {
 
 gtr_solo = {
   \set TabStaff.restrainOpenStrings = ##t
-  \set TabStaff.minimumFret = #10
+  \set TabStaff.minimumFret = #5
   <>^"Solo"
+  \tuplet 3/2 { <a' e cs g>8 <a e cs g> <a e cs g> }  <a e cs g>4-. \tuplet 3/2 { <a e cs g>8 <a e cs g> <a e cs g> }  <a e cs g>4-.  |
+  \tuplet 3/2 { <a e cs g>8 <a e cs g> <a e cs g> } \tuplet 3/2 { <a e cs g>8  <a e cs g>8 <a e cs g>8 }  <a e cs g>4-. a,,4 \glissando | 
+  \set TabStaff.minimumFret = #8 
+  c4 c''4 as8 g4. c8 as4 c4 as4. |
+  <f' c>8 <f c>8 <f c>4 <c\2 gs>8 <c\2 gs>8 <c\2 gs>4 | <a f>8 <a f>8 <a f>8 <a f>4 <a f>8 <a f>4-.
+  \break
+  \tuplet 3/2 {fs8 a e\1} \tuplet 3/2 {e8 g e\1} \tuplet 3/2 {fs8 a e\1} \tuplet 3/2 {a8\3 c\2 e,\1} |
+  \tuplet 3/2 {fs8 a e\1} \tuplet 3/2 {e8 g e\1} \tuplet 3/2 {fs8 a e\1} \tuplet 3/2 {fs8 a e\1} |
+  \tuplet 3/2 {fs8 a e'\1} \tuplet 3/2 {fs,8 a e'\1} 
+  \tuplet 3/2 {ds fs,8 a} \tuplet 3/2 {fs'\1 a,\3 fs'\1 } \tuplet 3/2 {a,\3 c\2 fs} \tuplet 3/2 {a,\3 c\2 fs} \tuplet 3/2 {a,\3 c\2 fs} <a,\3 c\2 fs>4|
+  \break
+  \set TabStaff.minimumFret = #5 
+  <a e>8  <a e>8  \tuplet 3/2 {<d, fs> ( <ds g> <d fs>) } <c e> <d fs>8 <d fs>4 |
+  <d fs>8( <c e>) a4 <c e>8 <c e>4. \tuplet 3/2 { g8( a8 g8) } e8 g8  \tuplet 3/2 { e8 g8 e8 }  g8 a8
+  \tuplet 3/2 { a,8 c d}  \tuplet 3/2 {e g a} \tuplet 3/2 { \grace c8  d8( c8) a8 }  \tuplet 3/2 { c( cs) e } 
+  \tuplet 3/2 { d c cs } \tuplet 3/2 { e fs e} \tuplet 3/2 { c' a b} \tuplet 3/2 { c g e\1} a,,1\5
+
 }
 
 gtr = \relative c' {
@@ -121,52 +139,22 @@ gtr = \relative c' {
   \set TabStaff.minimumFret = #0
   %\set TabStaff.restrainOpenStrings = ##t
   \clef moderntab
-  \gtr_intro
+ % \gtr_intro
   \break
-  \gtr_verse_riff
+ % \gtr_verse_riff
   \break
   \gtr_solo
+  
 
 
 }
 
 gtrHarmony = \chordmode {
   \jazzChords
-  c1:min7 s1 s1 s1 |
-  s1 s1
-  \break
-  a1:min f:7 a:min f:7
-  a1:min f:7 a:min f:7 
-  \break
-  c2 bf2 f1:7
-  c2 bf2 a1:min
-  c2 bf2 af2:7 g2 f1:7 af1:7
-  \break
-  f1:7 c:min7 f:7 c:min7
-  f:7 c:min7 bf af:7 g f:7
-  \break
-  a1:min f:7 a:min f:7
-  a1:min f:7 a:min f:7 
+  a1:7 a1:7  c1 c1 f1 f1 
+  a1:7 a1:7  c1 c1 f1 f1
+
   \break 
-  c2 bf2 f1:7
-  c2 bf2 a1:min
-  c2 bf2 af2:7 g2 f1:7 af1:7
-  \break
-  f:7 c:min7 f:7 c:min7
-  f:7 c2:min7 bf2 af2:7 g2 f1:7 f1:7 
-  \break
-  ef b af:7 
-  ef b af:7
-  ef b af:7
-  ef b af:7
-  \break  
-  f:7 c:min7 f:7 c:min7
-  f:7 c:min7 bf af:7 g f:7
-  \break
-  f:7 c:min7 f:7 c:min7
-  f:7 c:min7 bf af:7 g f:7
-  \break 
-  c:min7
 
 }
 guitar = {
@@ -280,7 +268,7 @@ drumContents = {
     \new StaffGroup = "rhythm" <<
       \new ChordNames = "chords" \gtrHarmony
       \new TabStaff = "guitar"  \with {
-        instrumentName = #"Guitar"
+        instrumentName = #"Guitar Solo"
         % stringTunings = \stringTuning <b,, e, a, d fs b>
       }
       \guitar
