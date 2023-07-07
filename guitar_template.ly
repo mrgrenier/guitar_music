@@ -1,7 +1,7 @@
 %
 %
 %
-\version "2.18.2"
+\version "2.22.2"
 \include "english.ly"
 \header {
   title = ""
@@ -16,7 +16,8 @@
 
 chord_music = {
   \time 4/4
-  \chordmode = {
+  \chordmode {
+    a1
   }
 }
 
