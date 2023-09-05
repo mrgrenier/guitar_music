@@ -48,6 +48,7 @@ music = {
 }
 
 \new TabStaff {
+    \clef moderntab
     \tabFullNotation
     \music
 }
