@@ -100,7 +100,7 @@ music = {
   \unfoldRepeats \articulate
   \music
   \midi {
-    \tempo 4 = 130
+    \tempo 4 = 150
   }
 }
 
