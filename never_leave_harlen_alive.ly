@@ -1,7 +1,7 @@
 % 
 % 
 %
-\version "2.19.15"
+\version "2.23.82"
 \include "english.ly"
 \include "articulate.ly"
 \header {
@@ -10,7 +10,7 @@
   composer = "Darrel Scott"
 }
 
-\layout { \override Voice.StringNumber #'stencil = ##f }
+\layout { \override Voice.StringNumber.stencil = ##f }
 
 \include "predefined-guitar-fretboards.ly"
 

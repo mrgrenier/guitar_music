@@ -1,7 +1,7 @@
 % 
 % 
 %
-\version "2.22.2"
+\version "2.23.82"
 \include "english.ly"
 \include "articulate.ly"
 \header {
@@ -17,7 +17,7 @@
 
   }
   indent = 0.0 
-  \override Voice.StringNumber #'stencil = ##f }
+  \override Voice.StringNumber.stencil = ##f }
 
 \include "predefined-guitar-fretboards.ly"
 
