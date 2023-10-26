@@ -1,7 +1,7 @@
 %
 %
 %
-\version "2.22.2"
+\version "2.23.2"
 \include "english.ly"
 \include "articulate.ly"
 \header {
@@ -17,7 +17,7 @@
 
   }
   indent = 0.0
-  \override Voice.StringNumber #'stencil = ##f
+  \override Voice.StringNumber.stencil = ##f
 }
 
 \include "predefined-guitar-fretboards.ly"
@@ -102,7 +102,6 @@ music = {
     \acciaccatura  <b\3 d>8 <a c>4 g8 a4 <c e>8 g fs ~ fs
     <g b> e4 d8 b a fs |
     fs( g ~ g2.)
-  %%  \set TabStaff.minimumFret = #7
 
 
   }

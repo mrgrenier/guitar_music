@@ -1,7 +1,7 @@
 %
 %
 %
-\version "2.18.2"
+\version "2.23.2"
 \include "english.ly"
 \include "articulate.ly"
 \header {
@@ -11,7 +11,16 @@
   composer = ""
 }
 
-\layout { \override Voice.StringNumber #'stencil = ##f }
+\layout {
+  \context {
+    \Score
+    \omit BarNumber
+
+  }
+  indent = 0.0
+  \override Voice.StringNumber.stencil = ##f
+
+}
 
 \include "predefined-guitar-fretboards.ly"
 \layout { indent = 0.0\cm }
@@ -119,10 +128,11 @@
 
 % Add a chord to custom-fretboard-table-two
 
-\layout { \override Voice.StringNumber #'stencil = ##f }
 
 music = {
   \time 4/4
+  \clef moderntab
+
   \key a \major
   \stemDown
   \relative c {
