@@ -51,8 +51,10 @@ too_many_places = {
 
 
 
+
 too_many_places_chords = {
   \time 4/4
+  \transpose fs e {
   \chordmode {  
     fs1:m  a 
     b2:m e |
@@ -61,6 +63,49 @@ too_many_places_chords = {
     b1:m fs2.:m e4
     \break
     d1 b:m fs:m
+  }
+  }
+}
+
+whiskey = {
+  <>^"Whiskey"
+  % Metronome marks below the staff
+  \override Score.MetronomeMark.direction = 0
+  \tempo 4 = 100
+  \break
+  c4 c8 c8 ~ c8 c8 c8 c8  
+  c4 c8 c8 ~ c8 c8 c8 c8  
+  c4 c8 c8 ~ c8 c8 c8 c8  
+  c4 c8 c8 ~ c8 c8 c8 c8  
+
+  c4 c8 c8 ~ c8 c8 c8 c8  
+  c4 c8 c8 ~ c8 c8 c8 c8  
+  c4 c8 c8 ~ c8 c8 c8 c8  
+  c4 c8 c8 ~ c8 c8 c8 c8  
+
+  c4 c8 c8 ~ c8 c8 c8 c8  
+  c4 c8 c8 ~ c8 c8 c8 c8  
+  c4 c8 c8 ~ c8 c8 c8 c8  
+  c4 c8 c8 ~ c8 c8 c8 c8  
+
+  c4 c8 c8 ~ c8 c8 c8 c8  
+  c4 c8 c8 ~ c8 c8 c8 c8  
+  c4 c8 c8 ~ c8 c8 c8 c8  
+  c4 c8 c8 ~ c8 c8 c8 c8  
+
+  c4 c8 c8 ~ c8 c8 c8 c8  
+
+}
+
+whiskey_chords = {
+  \time 4/4
+  
+  \chordmode {  
+    c1 g a:m a:m
+f c g g
+f c a:m a:m
+f g c c
+g
   }
 }
 
@@ -91,13 +136,15 @@ music = {
   \stemDown
   \override Beam.concaveness = #10000
   \too_many_places
-  \hawk_is_a_mule
+  \whiskey
+%  \hawk_is_a_mule
 }
 
 <<
   \new ChordNames {
     \too_many_places_chords
-    \hawk_is_a_mule_chords
+    \whiskey_chords
+ %   \hawk_is_a_mule_chords
   }
   \new Voice \with {
     \consists "Pitch_squash_engraver"
