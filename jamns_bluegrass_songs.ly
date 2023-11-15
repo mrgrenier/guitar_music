@@ -33,7 +33,7 @@ too_many_places = {
   % Metronome marks below the staff
   \override Score.MetronomeMark.direction = 0
   \tempo 4 = 100
-  \repeat volta 3 { fs8 fs16 fs fs fs fs8 fs8 fs16 fs fs fs fs fs 
+  \repeat volta 3 { fs8 \downbow fs16 \downbow fs \upbow fs \downbow fs \upbow fs8 \downbow fs8 \downbow fs16 \downbow fs \upbow fs \downbow fs \upbow fs \downbow fs \upbow
                     a8 a16 a a a a8 a8 a16 a a a a a
                     b8 b16 b b b b8 a8 e16 e e e e e }
   \break 
@@ -73,7 +73,7 @@ whiskey = {
   \override Score.MetronomeMark.direction = 0
   \tempo 4 = 100
   \break
-  c4 c8 c8 ~ c8 c8 c8 c8  
+  c4 \downbow c8 \downbow c8 \upbow ~ c8 c8 \upbow c8 \downbow c8 \upbow 
   c4 c8 c8 ~ c8 c8 c8 c8  
   c4 c8 c8 ~ c8 c8 c8 c8  
   c4 c8 c8 ~ c8 c8 c8 c8  

@@ -46,8 +46,8 @@ music = {
     r4 e,8 g a c d ef |
     e4  <e a c e>8 \downbow <e a c e>8 \upbow e, <e' a c e>8 \upbow <e a c e>8 \downbow <e a c e>8 \upbow |
     e4 <e a c e>8 \downbow <e a c e>8 \upbow d( e) <e a c e>8 \downbow <e a c e>8 \upbow |
-    f4 e4 r8 r8 <e a c e>8 <e a c e>8 |
-    a,4 <e' a c e>8 <e a c e>8 e d c4 |
+    f4 e4 r8 r8 <e a c e>8 \downbow <e a c e>8 \upbow |
+    a,4 <e' a c e>8 \downbow <e a c e>8 e d c4 |
     d4 <d g b g'>8 <d g b g'>8  a( b) <d g b g'>8 <d g b g'>8 |
     b8 a8 g4 e4 g4 |
     a4 <e' a c e>8 <e a c e>8 e,8 <e' a c e>8 <e a c e>8 <e a c e>8 |

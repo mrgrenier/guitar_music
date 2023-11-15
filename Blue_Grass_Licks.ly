@@ -69,7 +69,7 @@ music = {
     f \acciaccatura cs d f \tuplet 3/2 { cs( c) as }  c as( g\4) f g\4
     f g\4
     \set TabStaff.minimumFret = #3
-    f \acciaccatura cs d\5 f \tuplet 3/2 {cs c as} c as g1
+    f \acciaccatura cs d\5 f \tuplet 3/2 {cs c as} c as g2
 
 
   }
