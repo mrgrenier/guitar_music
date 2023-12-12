@@ -5,7 +5,7 @@
 \include "english.ly"
 \include "articulate.ly"
 \header {
-  title = "Soldiers Song"
+  title = "Dance With Me"
   subtitle = "The 3rd Thing"
   arranger = ""
   composer = ""
@@ -80,24 +80,12 @@ music = {
     \override Score.RehearsalMark.stencil =
     #(make-stencil-boxer 0.15 0.3 ly:text-interface::print)
     \mark \default
-    ef4 ef4 bf4 bf4 c4 c4 c4 c4
+    a4 a4 a4 a4 c4 c4 d4 d4 e2 e2
     \break
     \mark \default
 
     \override Beam.concaveness = #10000
     
-    c4 c4  bf4 bf4 f4 f4 f4 f4
-    \break
-    \mark \default
-    g4 g4 g4 g4 | af4 af4 af4 af4 | bf4 bf4 bf4 bf4 | ef4 ef4 ef4 ef4 |
-    g4 g4 af4 af4 bf4 bf4 bf4 bf4
-    ef4 ef4 bf4 bf4 c4 c4 c4 c4
-    \break
-    \mark \default
-    c4 c4 c4 c4 c4 c4 c4 c4
-    \break
-    \mark \default
-    c4 c4 af af f f f f    
 
   }
 }
@@ -108,13 +96,8 @@ music = {
     \key a \major
     \chordmode  {
       \set chordNameSeparator = \markup { "/" }
-      ef2:maj7 bf c1
-      c2:m bf f1:7
-      g1:m af bf ef:maj7
-      g2:m af bf1
-      ef2:maj7 bf c1
-      c2 c:m c c:m 
-      c2 af2 f1
+      a1 c2 d2
+            e:m7 e
       
       
     }
@@ -124,14 +107,9 @@ music = {
     \time 4/4
     \key a \major
     \chordmode {
-      \set predefinedDiagramTable = #custom-fretboard-table-one
-      ef2:maj7 bf c1
-      c2:m bf f1:7
-      g1:m af bf ef:maj7
-      g2:m af bf1
-      ef2:maj7 bf c1
-      c2 c:m c c:m 
-      c2 af2 f1
+   %   \set predefinedDiagramTable = #custom-fretboard-table-one
+      a1 c2 d2
+      e:m7 e
 
       
     }
@@ -147,16 +125,6 @@ music = {
     }
   }
   
-  \new TabStaff {
-    \tabFullNotation
-    \clef moderntab
-    \relative c {
-      s1 s1 
-      \set TabStaff.minimumFret = #2
-      f8 \glissando g\4 c d( ef) d  c g\4 | 
-      f4  \tuplet 3/2 { bf8 a f }
-    }
-  }
 >>
 
 \score {

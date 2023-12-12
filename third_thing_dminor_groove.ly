@@ -1,11 +1,11 @@
 %
 %
 %
-\version "2.23.2"
+\version "2.24.3"
 \include "english.ly"
 \include "articulate.ly"
 \header {
-  title = "Soldiers Song"
+  title = "Dminor Groove"
   subtitle = "The 3rd Thing"
   arranger = ""
   composer = ""
@@ -33,21 +33,21 @@
 
 % Add a chord to custom-fretboard-table-one
 \storePredefinedDiagram #custom-fretboard-table-one
-\chordmode{c:m}
+\chordmode{d:m}
 #guitar-tuning
-"8;10;10;8;8;8;"
+"x;5;7;7;6;5;"
 \storePredefinedDiagram #custom-fretboard-table-one
 \chordmode{bf}
 #guitar-tuning
-"6;8;8;7;6;6;"
+"x;x;8;7;6;x;"
 \storePredefinedDiagram #custom-fretboard-table-one
-\chordmode{f:7}
+\chordmode{f'}
 #guitar-tuning
-"1;3;1;2;1;1;"
+"x;8;7;5;6;5;"
 \storePredefinedDiagram #custom-fretboard-table-one
-\chordmode{g:m}
+\chordmode{f''}
 #guitar-tuning
-"3;5;5;3;3;3;"
+"x;x;10;x;10;x;"
 \storePredefinedDiagram #custom-fretboard-table-one
 \chordmode{af}
 #guitar-tuning
@@ -68,6 +68,16 @@
 
 % Add a chord to custom-fretboard-table-two
 
+music_rhythm = {
+  \numericTimeSignature
+  \clef moderntab
+  \time 4/4
+  \stemDown
+  \override  Beam.concaveness = #10000
+  \relative c {
+    d4 d4 d4 d4 f4 f4 f4 f4
+  }
+}
 
 music = {
   \numericTimeSignature
@@ -76,30 +86,29 @@ music = {
   \stemDown
   \override Beam.concaveness = #10000
 
-  \relative c {
-    \override Score.RehearsalMark.stencil =
-    #(make-stencil-boxer 0.15 0.3 ly:text-interface::print)
-    \mark \default
-    ef4 ef4 bf4 bf4 c4 c4 c4 c4
-    \break
-    \mark \default
-
-    \override Beam.concaveness = #10000
+  \relative c' {
+    \set TabStaff.minimumFret = #5
+    <a d f>8 \acciaccatura <g c e\2>8 <a d f>8 \acciaccatura <g c e\2>8 <a d f>8 \acciaccatura <g c e\2>8 <a d f>8 ~ <a d f>4. bf8 \glissando |
+    \set TabStaff.minimumFret = #8
+    <c a'>2. <bf g'>4
+    \set TabStaff.minimumFret = #5
+    <a d f>8 \acciaccatura <g c e\2>8 <a d f>8 \acciaccatura <g c e\2>8 <a d f>8 \acciaccatura <g c e\2>8 <a d f>8 ~ <a d f>4. bf8 \glissando |
+    \set TabStaff.minimumFret = #8
+    <c a'>2
+    \set TabStaff.minimumFret = #5
+     \acciaccatura  <c f>16( d8) <c f>8 g16\4 \acciaccatura a g\4
+    f8 |
+    <bf d f>4. 
+   \set TabStaff.minimumFret = #8
+    ef8 \glissando <f d'>2 |
+   \set TabStaff.minimumFret = #5
+   <a, d f a>2 \acciaccatura  <c f>16( d8) <c f>8 <a d f>8 <g c e\2> ~ <g c e\2>4
+   a'16 \acciaccatura bf16 a16 e8\2
     
-    c4 c4  bf4 bf4 f4 f4 f4 f4
-    \break
-    \mark \default
-    g4 g4 g4 g4 | af4 af4 af4 af4 | bf4 bf4 bf4 bf4 | ef4 ef4 ef4 ef4 |
-    g4 g4 af4 af4 bf4 bf4 bf4 bf4
-    ef4 ef4 bf4 bf4 c4 c4 c4 c4
-    \break
-    \mark \default
-    c4 c4 c4 c4 c4 c4 c4 c4
-    \break
-    \mark \default
-    c4 c4 af af f f f f    
-
+    
+ 
   }
+
 }
 
 <<
@@ -108,15 +117,7 @@ music = {
     \key a \major
     \chordmode  {
       \set chordNameSeparator = \markup { "/" }
-      ef2:maj7 bf c1
-      c2:m bf f1:7
-      g1:m af bf ef:maj7
-      g2:m af bf1
-      ef2:maj7 bf c1
-      c2 c:m c c:m 
-      c2 af2 f1
-      
-      
+      d1:m f d:m f bf d:m c c
     }
   }
 
@@ -125,15 +126,7 @@ music = {
     \key a \major
     \chordmode {
       \set predefinedDiagramTable = #custom-fretboard-table-one
-      ef2:maj7 bf c1
-      c2:m bf f1:7
-      g1:m af bf ef:maj7
-      g2:m af bf1
-      ef2:maj7 bf c1
-      c2 c:m c c:m 
-      c2 af2 f1
-
-      
+      d1:m f'' d:m f' bf d:m c c
     }
   }
 
@@ -143,19 +136,13 @@ music = {
   } {
     \relative c {
       \improvisationOn
-      \music
+      \music_rhythm
     }
   }
-  
+
   \new TabStaff {
     \tabFullNotation
-    \clef moderntab
-    \relative c {
-      s1 s1 
-      \set TabStaff.minimumFret = #2
-      f8 \glissando g\4 c d( ef) d  c g\4 | 
-      f4  \tuplet 3/2 { bf8 a f }
-    }
+    \music
   }
 >>
 
@@ -163,6 +150,6 @@ music = {
   \unfoldRepeats \articulate
   \music
   \midi {
-    \tempo 4 = 100
+    \tempo 4 = 80
   }
 }
